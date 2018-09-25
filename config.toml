@@ -1,0 +1,249 @@
+# /////////////////////////////////////////////  PAGE SETTINGS
+baseurl = "localhost:1313"
+title = "Orange"
+languageCode = "en-us"
+theme = "hugo-elate-theme"
+[params]
+  # custom_css = ["css/custom.css"]
+
+  #///////////////////////////////////////////////////////   META
+  author = "bia"
+  description = ""
+  email = "arronmccrory@gmail.com"
+
+  #/////////////////////////////////////////////////   NAVIGATION
+  [params.navigation]
+    brand = "OCC"
+    home = "Home"
+    work = "Work"
+    testimonials = "Testimonials"
+    services = "Services"
+    about = "About"
+    contact = "Contact"
+  # ///////////////////////////////////////////////  HERO SECTION
+  [params.hero]
+    title = "Orange Circle Company"
+    subtitle = 'complete web wolutions'
+  # ///////////////////////////////////////////////  INTRO SECTION
+  [params.intro]
+    [[params.intro.item]]
+    title = "Plan"
+    description = "We will help you plan a website that best suits your needs.."
+    url = "#"
+    button = "Get In Touch"
+    icon = "icon-bulb"
+    img = "images/team/boo.jpg"
+    [[params.intro.item]]
+    title = "Develop"
+    description = "We will will work closely with you to creat a website that represents your brand."
+    url = "#"
+    button = "Click Me"
+    icon = "icon-wrench"
+    img = ""
+    [[params.intro.item]]
+    title = "Launch"
+    description = "We will launch and maintain your site with SEO maintenance to give you the best possible results."
+    url = "#"
+    button = "Why us?"
+    icon = "icon-rocket"
+    img = ""
+    [params.intro.video]
+    enable = true
+    title = "Watch the video"
+    icon = "icon-play2"
+    url = "https://vimeo.com/channels/staffpicks/93951774"
+  # ////////////////////////////////////////////  SERVICES SECTION
+  [params.services]
+    enable = true
+    title = "Services"
+    description = "What We Can Do For You"
+      [[params.services.item]]
+        title = "Coding"
+        description = "Have an idea for a website or an app? We at Orange Circle Company want to help your ideas become reality. We produce websites, webapps, and mobile apps that work across all devices."
+        icon = "icon-monitor"
+      [[params.services.item]]
+        title = "Consulting"
+        description = "We offer a variety of consulting services. We can help your business offer wifi to your customers. Or get your Point of Sale system set up so you can start selling fast. Even if you aren't sure if your business needs any consulting, we offer free initial consultations to let you know if we believe we could be a benefit to your business."
+        icon = "icon-layers2"
+      [[params.services.item]]
+        title = "Websites"
+        description = "A good website can provide your potential customers with everything they need to know and help them feel comfortable when choosing your business. We have a number of website solutions to fit any kind of business."
+        icon = "icon-video2"
+      [[params.services.item]]
+        title = "SEO"
+        description = "Show up on the first page of Google! Ever wonder how many people visit your website? With our analytics services we can provide detailed interactive reports that explain in detail who is visiting your website and from where."
+        icon = "icon-monitor"
+      [[params.services.item]]
+        title = "Copywriting"
+        description = "Copy-writing is the most basic and important part of any project. riting good copy is something we take very seriously. All the copy we write for our clients is both pleasing to read and SEO rich."
+        icon = "icon-monitor"
+      [[params.services.item]]
+        title = "AdWords"
+        description = "Google Ads are a fantastic way to spread awareness of your business online. It is important to have both a SEO strategy and a Google Ads strategy that work well together. We at Orange Circle Company can make that happen."
+        icon = "icon-monitor"
+      [[params.services.item]]
+        title = "Photography"
+        description = "A photo is worth a thousand words. Our photographers can help capture your business beautifully for the whole world to see. We will further edit your images to perform optimaly on your website. "
+        icon = "icon-monitor"
+      [[params.services.item]]
+        title = "...and more to come!"
+        description = "We are always excited to learn the latest and greatest.  We always apply best practices with futureproofing in mind."
+        icon = "icon-monitor"
+
+  # ////////////////////////////////////////////////  WORK SECTION
+  [params.work]
+    enable = true
+    title = "Work"
+    description = "Some of Our Projects"
+    footertext = ''
+    [[params.work.row]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Asla Land"
+      subtitle = "A Custom Blog"
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "Cast of Crowns"
+      subtitle = "WordPress SEO  &amp  Optimizations"
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image3"
+      title = "Ficcadenti Waggoner &amp Castle"
+      subtitle = "WordPress  &amp  CSS Frontend"
+    [[params.work.row]]
+      img = "work_4.jpg"
+      alt = "Image4"
+      title = "The Special Olympics"
+      subtitle = "Artwork &amp Frontend"
+    [[params.work.row]]
+      img = "work_5.jpg"
+      alt = "Image5"
+      title = "Abbot Technologies"
+      subtitle = "Design"
+    [[params.work.row]]
+      img = "work_6.jpg"
+      alt = "Image6"
+      title = "Project 6"
+      subtitle = "Design"
+  # ////////////////////////////////////////  TESTIMONIALS SECTION
+  [params.testimonials]
+    enable = true
+    title = "Testimonials"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person1.jpg"
+      alt = "Person1"
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person2.jpg"
+      alt = "Person2"
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+  # ///////////////////////////////////////////////  ABOUT SECTION
+  [params.about]
+    enable = true
+    title = "Our Team"
+    description = "We Make It All Happen"
+    [[params.about.item]]
+      name = "Loki"
+      position = "Web Developer"
+      description = ""
+      img = "loki.jpg"
+      alt = "Loki"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
+    [[params.about.item]]
+      name = "Arron"
+      position = "Web Developer"
+      description = "We are a small startup with a passion for tech and creativity.  We love what we do and will go that extra mile for you to make sure your project is the best it can be. We want to work with you to improve your business or idea."
+      img = "boo.jpg"
+      alt = "Arron"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
+    [[params.about.item]]
+      name = "Thor"
+      position = "Web Developer"
+      description = ""
+      img = "thor.jpg"
+      alt = "Thor"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
+
+
+
+  # ////////////////////////////////////////////  COUNTERS SECTION
+  [params.counters]
+    enable = true
+    title = "Stats"
+    background = "full_image_1.jpg"
+    [[params.counters.item]]
+      description = "Finished projects"
+      icon = "icon-briefcase"
+      from = 0
+      to = 89
+      interval = 50
+      speed = 5000
+    [[params.counters.item]]
+      description = "Lines of code"
+      icon = "icon-code"
+      from = 0
+      to = 2343409
+      interval = 50
+      speed = 5000
+    [[params.counters.item]]
+      description = "Cups of coffee"
+      icon = "icon-cup"
+      from = 0
+      to = 1302
+      interval = 50
+      speed = 5000
+    [[params.counters.item]]
+      description = "Happy clients"
+      icon = "icon-people"
+      from = 0
+      to = 52
+      interval = 50
+      speed = 5000
+  # /////////////////////////////////////////////  CONTACT SECTION
+  [params.contact]
+    enable = true
+    map = false
+    form = true
+    title = "Get in touch"
+    description = " Give us a call! "
+    details = [
+        ["icon-home", "The City of Orange"],
+        ["icon-phone", "(123) 465-6789"],
+        ["icon-envelope", "info@occ.co"],
+        ["icon-globe", '<a https://www.orangecirclecompany.com/" target="_blank">Our Website</a>']
+      ]
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
+  # //////////////////////////////////////////////  FOOTER SECTION
+  [params.footer]
+    enable = true
+    copyright = '&copy; Orange Circle Company 2018 All Rights Reserved'
+    links = [
+        ["icon-twitter", "#twitter"],
+        ["icon-facebook", "#facebook"],
+        ["icon-youtube", "#youtube"]
+      ]

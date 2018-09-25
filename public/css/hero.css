@@ -1,0 +1,271 @@
+/*---------------------------------------------HOME*/
+#fh5co-home {
+  /* background-color: #555; */
+}
+
+#fh5co-home .gradient {
+  /* display: none; */
+  /* background-color: #555; */
+}
+
+#fh5co-home>div:nth-child(1) {
+
+}
+
+
+.slide-right {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-right p {
+  animation: 10s slide-right;
+}
+
+@keyframes slide-right {
+  from {
+    margin-left: -100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.slide-slow {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-slow p {
+  animation: 30s slide-left;
+}
+
+@keyframes slide-slow {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-slow: 0%;
+    width: 100%;
+  }
+}
+/*////////////////////////TEXT///////////////////*/
+/* SLIDE FOR "ORANGE"*/
+.slide-right {
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 22vw;
+  color: #fff;
+  opacity: .1;
+  /* position: relative; */
+  z-index: 4;
+  /*ANIMATION*/
+  -webkit-animation: slide-right 2s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-timing-function: ease;
+  animation: slide-right 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-timing-function: ease;
+}
+
+@-webkit-keyframes slide {
+  from {
+    top: 40%;
+    left: -100%;
+    color: #fff;
+    opacity: 0;
+  }
+
+  to {
+    top: 40%;
+    left: 10%;
+    color: orange;
+    opacity: .5;
+  }
+}
+
+@keyframes slide {
+  from {
+    top: 40%;
+    left: -100%;
+    color: #fff;
+    opacity: 0;
+  }
+
+  to {
+    top: 40%;
+    left: 10%;
+    color: orange;
+    opacity: .5;
+  }
+}
+/* SLIDE1 FOR "CIRCLE"*/
+.slide1 {
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 6vw;
+  color: #fff;
+  opacity: .1;
+  /* position: relative; */
+  z-index: 6;
+  /*ANIMATION*/
+  -webkit-animation: slide-right 3s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-timing-function: ease;
+  animation: slide-right 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-timing-function: ease;
+}
+
+@-webkit-keyframes slide1 {
+  from {
+    top: 5%;
+    left: -100%;
+    opacity: 0;
+  }
+
+  to {
+    top: 5%;
+    left: 5%;
+    color: #fff;
+    opacity: .7;
+  }
+}
+
+@keyframes slide1 {
+  from {
+    top: 5%;
+    left: -100%;
+    opacity: 0;
+  }
+
+  to {
+    top: 5%;
+    left: 5%;
+    color: #fff;
+    opacity: .7;
+  }
+}
+/* SLIDE2 FOR "COMPANY"*/
+.slide2 {
+  font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 14vw;
+  color: #fff;
+  opacity: .1;
+  /* position: relative; */
+  z-index: 5;
+  /*ANIMATION*/
+  -webkit-animation: slide-right 4s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-timing-function: ease;
+  animation: slide-right 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-timing-function: ease;
+}
+
+@-webkit-keyframes slide2 {
+  from {
+    top: -10%;
+    left: -100%;
+    opacity: 0;
+  }
+
+  to {
+    top: -10%;
+    left: 10%;
+    color: #fff;
+    opacity: .3;
+  }
+}
+
+@keyframes slide2 {
+  from {
+    top: -10%;
+    left: -100%;
+    opacity: 0;
+  }
+
+  to {
+    top: -10%;
+    left: 10%;
+    color: #fff;
+    opacity: .3;
+  }
+}
+/* TOP FOR "FULL SERVICE WEB SOLUTIONS"*/
+.top {
+  font-size: 2vw;
+  color: #fff;
+  opacity: .3;
+  /* position: relative; */
+  align-self: flex-end;
+  z-index: 6;
+  /*ANIMATION*/
+  -webkit-animation: top 3s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-timing-function: ease;
+  animation: top 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-timing-function: ease;
+}
+
+@-webkit-keyframes top {
+  from {
+    top: 0px;
+    color: #fff;
+    opacity: 0;
+  }
+
+  to {
+    top: 720px;
+    color: #fff;
+    opacity: .6;
+  }
+}
+
+@keyframes top {
+  from {
+    top: 0px;
+    ccolor: #fff;
+    opacity: 5;
+  }
+
+  to {
+    top: 720px;
+    color: #fff;
+    opacity: .5;
+  }
+}
+#fh5co-home>div:nth-child(2) {
+  /* width: inherit !important; */
+}
+
+.text-wrap>div:nth-child(2) {
+  /* width: inherit !important; */
+}
+
+#fh5co-home,
+#fh5co-home .text-wrap {
+  /* height: 900px; */
+  /* display: flex; */
+}
+
+#fh5co-home .text-inner {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* width: inherit; */
+  /* text-align: none; */
+  /* vertical-align: none; */
+}

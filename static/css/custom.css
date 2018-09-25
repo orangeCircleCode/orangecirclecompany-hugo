@@ -1,0 +1,149 @@
+/*///////////////////////////////////////////////////----MAIN CUSTOM CSS-*/
+
+.btn.btn-primary {
+  background: #777777;
+  color: #fff;
+  border: none !important;
+  border: 2px solid transparent !important;
+}
+
+/*//////////////////////////////////////////////////////////////----NAV-*/
+#fh5co-header.navbar-fixed-top .navbar-brand {
+  color: #ffa500;
+}
+
+#fh5co-header.navbar-fixed-top #navbar li.active a {
+  color: #ffa500;
+}
+
+#fh5co-header .navbar-brand {
+  float: left;
+  display: block;
+  font-size: 30px;
+  font-weight: 600;
+  padding-left: 0;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#fh5co-header #navbar li a {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+/*//////////////////////////////////////////////////////////////----HERO-*/
+#fh5co-home>div.container {
+  width: inherit;
+}
+
+#fh5co-home .text-inner h1 {
+  /* font-family: 'Cutive Mono', monospace; */
+  font-family: 'Inconsolata', monospace;
+  font-size: 90px;
+  font-weight: 100 !important;
+  color: #fefefe;
+  margin: 0 0 20px 0;
+}
+
+#fh5co-home {
+  background-color: #ffa500;
+  background-blend-mode: color-burn;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  opacity: .9;
+}
+
+#fh5co-home .gradient{
+/* ms ( IE 10.0+ ) */
+background:-ms-linear-gradient(182deg, rgba(252,252,252,0.02) 0.14%, rgba(252,252,252,0.05) 35.18%, rgba(252,252,252,0.97) 79.75%, rgba(255,255,255,0.94) 99.61% );
+
+/* WebKit (Chrome 10.0+, safari 5.1+ )*/
+background:-webkit-linear-gradient(182deg, rgba(252,252,252,0.02) 0.14%, rgba(252,252,252,0.05) 35.18%, rgba(252,252,252,0.97) 79.75%, rgba(255,255,255,0.94) 99.61% );
+
+/* Moz ( Moz 3.6+ )*/
+background:-moz-linear-gradient(182deg, rgba(252,252,252,0.02) 0.14%, rgba(252,252,252,0.05) 35.18%, rgba(252,252,252,0.97) 79.75%, rgba(255,255,255,0.94) 99.61% );
+
+/* Opera ( opera 11.6+ )*/
+background:-o-linear-gradient(182deg, rgba(252,252,252,0.02) 0.14%, rgba(252,252,252,0.05) 35.18%, rgba(252,252,252,0.97) 79.75%, rgba(255,255,255,0.94) 99.61% );
+
+/* W3C Markup */
+background:linear-gradient(182deg, rgba(252,252,252,0.02) 0.14%, rgba(252,252,252,0.05) 35.18%, rgba(252,252,252,0.97) 79.75%, rgba(255,255,255,0.94) 99.61% );
+opacity: 1;
+}
+
+/*//////////////////////////////////////////////////////////////----NTRO-*/
+#fh5co-intro {
+  margin-top: 30px;
+}
+
+#fh5co-intro>div {
+  width: inherit;
+}
+
+#fh5co-intro .fh5co-block>.overlay {
+  background: #fff;
+  opacity: .6;
+}
+
+#fh5co-intro .fh5co-block>.fh5co-text .fh5co-intro-icon {
+  font-size: 50px;
+  color: #555;
+  margin-bottom: 30px;
+  display: block;
+}
+
+/*///////////////////////////////////////////////////////////----SERVICES-*/
+
+/*///////////////////////////////////////////////////////////----COUNTERS-*/
+
+/*/////////////////////////////////////////////////////////////----FOOTER-*/
+#footer {
+  background-color: #ffa500;
+  color: #fff;
+}
+
+#footer .gotop {
+  background-color: #ffa500;
+}
+
+.social.social-circle a {
+  background: #555555;
+}
+
+#footer>a>i {
+  color: #555555;
+}
+
+
+html, body {
+  margin: 0; padding: 0;
+}
+.hero-bkg-animated {
+  /* background: rgb(214, 116, 5) url("bg.jpg") repeat 0 0 !important; */
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  height: 900px;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+  animation: slide 20s linear infinite;
+  background-blend-mode: color-burn;
+  opacity: 1;
+  background-color: #ffa500;
+
+}
+
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -400px 0; }
+}
+@keyframes slide {
+  from { background-position: 0 0; }
+  to { background-position: -400px 0; }
+}

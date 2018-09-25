@@ -1,0 +1,9 @@
+/*------------------------------------------------INTRO*/
+#fh5co-intro {
+  margin-top: 200px;
+  padding-bottom: 1em;
+}
+
+#fh5co-intro .fh5co-block>.overlay {
+  opacity: .5;
+}
