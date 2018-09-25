@@ -7,9 +7,9 @@ theme = "hugo-elate-theme"
   # custom_css = ["css/custom.css"]
 
   #///////////////////////////////////////////////////////   META
-  author = "bia"
+  author = ""
   description = ""
-  email = "arronmccrory@gmail.com"
+  email = ""
 
   #/////////////////////////////////////////////////   NAVIGATION
   [params.navigation]
