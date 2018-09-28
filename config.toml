@@ -4,10 +4,10 @@ title = "Orange"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 [params]
-  # custom_css = ["css/custom.css"]
+  custom_css = ["css/custom.css"]
 
   #///////////////////////////////////////////////////////   META
-  author = ""
+  author = "biamccrory"
   description = ""
   email = ""
 
@@ -42,13 +42,13 @@ theme = "hugo-elate-theme"
     img = ""
     [[params.intro.item]]
     title = "Launch"
-    description = "We will launch and maintain your site with SEO maintenance to give you the best possible results."
+    description = "We will launch and maintain your site to give you the best possible results."
     url = "#"
     button = "Why us?"
     icon = "icon-rocket"
     img = ""
     [params.intro.video]
-    enable = true
+    enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
@@ -128,7 +128,7 @@ theme = "hugo-elate-theme"
       subtitle = "Design"
   # ////////////////////////////////////////  TESTIMONIALS SECTION
   [params.testimonials]
-    enable = true
+    enable = false
     title = "Testimonials"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     [[params.testimonials.item]]
@@ -189,7 +189,7 @@ theme = "hugo-elate-theme"
 
   # ////////////////////////////////////////////  COUNTERS SECTION
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     background = "full_image_1.jpg"
     [[params.counters.item]]
@@ -230,7 +230,7 @@ theme = "hugo-elate-theme"
     details = [
         ["icon-home", "The City of Orange"],
         ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@occ.co"],
+        ["icon-envelope", "info@orangecirclecompany.com"],
         ["icon-globe", '<a https://www.orangecirclecompany.com/" target="_blank">Our Website</a>']
       ]
     name = "Name"

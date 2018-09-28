@@ -40,7 +40,7 @@
 
 #fh5co-home .text-inner h1 {
   /* font-family: 'Cutive Mono', monospace; */
-  font-family: 'Inconsolata', monospace;
+  /* font-family: 'Inconsolata', monospace; */
   font-size: 90px;
   font-weight: 100 !important;
   color: #fefefe;
@@ -82,12 +82,12 @@ opacity: 1;
 }
 
 #fh5co-intro>div {
-  width: inherit;
+  /* width: inherit; */
 }
 
 #fh5co-intro .fh5co-block>.overlay {
-  background: #fff;
-  opacity: .6;
+  /* background: #fff; */
+  /* opacity: .6; */
 }
 
 #fh5co-intro .fh5co-block>.fh5co-text .fh5co-intro-icon {
