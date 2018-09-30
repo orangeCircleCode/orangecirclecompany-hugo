@@ -194,3 +194,22 @@ html, body {
   from { background-position: 0 0; }
   to { background-position: -400px 0; }
 }
+
+.occ-logo {
+  background-image: url('../images/occ-logo.png');
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  float: left;
+}
+
+
+.navbar-header {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand {
+  padding-left: 10px !important;
+}

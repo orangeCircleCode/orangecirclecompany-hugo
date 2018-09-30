@@ -147,7 +147,7 @@ theme = "hugo-elate-theme"
   [params.about]
     enable = true
     title = "Our Team"
-    description = "We Make It All Happen"
+    description = "We Make It Happen"
     [[params.about.item]]
       name = "Bia"
       position = "Web Developer & Administrator"
