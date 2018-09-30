@@ -3,9 +3,10 @@ baseurl = "localhost:1313"
 title = "Orange"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
+
 [params]
   custom_css = ["css/custom.css"]
-
+  favicon = "favicon.ico"
   #///////////////////////////////////////////////////////   META
   author = "orange circle company"
   description = ""
@@ -19,6 +20,7 @@ theme = "hugo-elate-theme"
     testimonials = "Testimonials"
     services = "Services"
     about = "About"
+    portfolio ="Portfolio"
     contact = "Contact"
   # ///////////////////////////////////////////////  HERO SECTION
   [params.hero]
@@ -29,7 +31,7 @@ theme = "hugo-elate-theme"
     [[params.intro.item]]
     title = "Plan"
     description = "We will help you plan a website that best suits your needs.."
-    url = "#"
+    url = "https://github.com/dim0627/hugo_theme_solit"
     button = "Get In Touch"
     icon = "icon-bulb"
     img = "images/team/boo.jpg"
@@ -91,6 +93,7 @@ theme = "hugo-elate-theme"
       alt = "Image2"
       title = "Asla Land"
       subtitle = "A Custom Blog"
+      url = "#/"
     [[params.work.row]]
       img = "work_2.jpg"
       alt = "Image2"
@@ -101,21 +104,25 @@ theme = "hugo-elate-theme"
       alt = "Image3"
       title = "Ficcadenti Waggoner &amp Castle"
       subtitle = "WordPress  &amp  CSS Frontend"
+      url = "#/"
     [[params.work.row]]
       img = "work_4.jpg"
       alt = "Image4"
       title = "The Special Olympics"
       subtitle = "Artwork &amp Frontend"
+      url = "#/"
     [[params.work.row]]
       img = "work_5.jpg"
       alt = "Image5"
       title = "Abbot Technologies"
       subtitle = "Design"
+      url = "#/"
     [[params.work.row]]
       img = "work_6.jpg"
       alt = "Image6"
       title = "Project 6"
       subtitle = "Design"
+      url = "#/"
   # ////////////////////////////////////////  TESTIMONIALS SECTION
   [params.testimonials]
     enable = false
@@ -221,7 +228,7 @@ theme = "hugo-elate-theme"
         ["icon-home", "The City of Orange"],
         ["icon-phone", "(123) 465-6789"],
         ["icon-envelope", "info@orangecirclecompany.com"],
-        ["icon-globe", '<a https://www.orangecirclecompany.com/" target="_blank">Our Website</a>']
+        # ["icon-globe", '<a https://www.orangecirclecompany.com/" target="_blank">Our Website</a>']
       ]
     name = "Name"
     email = "Email"
@@ -233,7 +240,7 @@ theme = "hugo-elate-theme"
     enable = true
     copyright = '&copy; Orange Circle Company 2018 All Rights Reserved'
     links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
+        # ["icon-twitter", "#twitter"],
+        # ["icon-facebook", "#facebook"],
+        # ["icon-youtube", "#youtube"]
       ]
