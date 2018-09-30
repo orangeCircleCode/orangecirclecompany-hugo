@@ -13,7 +13,8 @@
 			<div class="row">
 			{{ range .Site.Params.services.item }}
 				<div class="col-md-6 col-sm-6 fh5co-service to-animate">
-					<i class="icon to-animate-2 {{ .icon | markdownify }}"></i>
+					<a style ="text-decoration: none" href="{{ .url }}" class="icon to-animate-2 {{ .icon | markdownify }}" ></a>
+					<!-- <i class="icon to-animate-2 {{ .icon | markdownify }}"></i> -->
 					<h3>{{ .title | markdownify }}</h3>
 					<p>{{ .description | markdownify }}</p>
 				</div>

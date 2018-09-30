@@ -8,6 +8,9 @@
 }
 
 /*//////////////////////////////////////////////////////////////----NAV-*/
+#fh5co-header.navbar-fixed-top #navbar li.active a span:before {
+  background-color: rgb(165, 162, 162);
+}
 #fh5co-header.navbar-fixed-top .navbar-brand {
   color: #ffa500;
 }
@@ -96,11 +99,55 @@ opacity: 1;
   margin-bottom: 30px;
   display: block;
 }
+#fh5co-intro .fh5co-block>.fh5co-text .fh5co-intro-icon >a {
+  text-decoration: none;
+}
+
 
 /*///////////////////////////////////////////////////////////----SERVICES-*/
 
-/*///////////////////////////////////////////////////////////----COUNTERS-*/
 
+/*///////////////////////////////////////////////////////////////----WORK-*/
+
+img.mfp-img {
+  width: 100%;
+}
+#fh5co-work > div,
+#fh5co-work > div > div.row.row-bottom-padded-sm,
+#fh5co-work > div > div:nth-child(1){
+width: inherit;
+}
+#fh5co-work > div > div:nth-child(1),
+#fh5co-work > div > div.row.row-bottom-padded-sm {
+  /* margin: 0px; */
+  /* padding: 0px; */
+}
+
+#fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(1),
+#fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(2),
+#fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(3),
+#fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(4),
+#fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(5),
+#fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(6),
+#fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(7),
+#fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(8),
+#fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(9),
+#fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(10),
+#fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(11),
+#fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(12) {
+  /* padding: 0px; */
+  /* margin: 0px; */
+}
+
+#fh5co-work .fh5co-project-item {
+  /* padding: 0px; */
+  /* margin: 0px; */
+  border-radius: 0px;
+  width: 100%;
+}
+#fh5co-work .fh5co-project-item img {
+  width: 100%;
+}
 /*/////////////////////////////////////////////////////////////----FOOTER-*/
 #footer {
   background-color: #ffa500;
