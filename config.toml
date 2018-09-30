@@ -8,9 +8,9 @@ theme = "hugo-elate-theme"
   custom_css = ["css/custom.css"]
   favicon = "favicon.ico"
   #///////////////////////////////////////////////////////   META
-  author = "biamccrory"
+  author = "orange circle company"
   description = ""
-  email = ""
+  email = "info@orangecirclecompany.com"
 
   #/////////////////////////////////////////////////   NAVIGATION
   [params.navigation]
@@ -24,28 +24,28 @@ theme = "hugo-elate-theme"
     contact = "Contact"
   # ///////////////////////////////////////////////  HERO SECTION
   [params.hero]
-    title = "Orange Circle Company"
-    subtitle = 'complete web wolutions'
+    title = 'The "Everywhere" Agency'
+    subtitle = 'providing Websites, SEO, & Copywriting wherever you may need it'
   # ///////////////////////////////////////////////  INTRO SECTION
   [params.intro]
     [[params.intro.item]]
     title = "Plan"
-    description = "We will help you plan a website that best suits your needs.."
-    url = "https://github.com/dim0627/hugo_theme_solit"
+    description = "We will help you plan a website that best suits your needs"
+    url = "#contact"
     button = "Get In Touch"
     icon = "icon-bulb"
-    img = "images/team/boo.jpg"
+    # img = "images/team/boo.jpg"
     [[params.intro.item]]
     title = "Develop"
-    description = "We will will work closely with you to creat a website that represents your brand."
-    url = "#"
-    button = "Click Me"
+    description = "We will will work closely with you to create a website that represents your brand and goal"
+    url = "#contact"
+    button = "How?"
     icon = "icon-wrench"
     img = ""
     [[params.intro.item]]
     title = "Launch"
-    description = "We will launch and maintain your site to give you the best possible results."
-    url = "#"
+    description = "We will launch and maintain your site to give you the best possible results"
+    url = "#contact"
     button = "Why us?"
     icon = "icon-rocket"
     img = ""
@@ -62,47 +62,29 @@ theme = "hugo-elate-theme"
       [[params.services.item]]
         title = "Coding"
         description = "Have an idea for a website or an app? We at Orange Circle Company want to help your ideas become reality. We produce websites, webapps, and mobile apps that work across all devices."
-        icon = "icon-monitor"
-        url = "https://github.com/dim0627/hugo_theme_solit"
-      [[params.services.item]]
-        title = "Consulting"
-        description = "We offer a variety of consulting services. We can help your business offer wifi to your customers. Or get your Point of Sale system set up so you can start selling fast. Even if you aren't sure if your business needs any consulting, we offer free initial consultations to let you know if we believe we could be a benefit to your business."
-        icon = "icon-layers2"
-        url = "#/consulting"
+        icon = "icon-headphones"
+
       [[params.services.item]]
         title = "Websites"
         description = "A good website can provide your potential customers with everything they need to know and help them feel comfortable when choosing your business. We have a number of website solutions to fit any kind of business."
-        icon = "icon-video2"
-        url = "#/websites"
+        icon = "icon-compass"
       [[params.services.item]]
         title = "SEO"
         description = "Show up on the first page of Google! Ever wonder how many people visit your website? With our analytics services we can provide detailed interactive reports that explain in detail who is visiting your website and from where."
-        icon = "icon-monitor"
-        url = "#/seo"
+        icon = "icon-pie-chart"
       [[params.services.item]]
         title = "Copywriting"
         description = "Copy-writing is the most basic and important part of any project. riting good copy is something we take very seriously. All the copy we write for our clients is both pleasing to read and SEO rich."
-        icon = "icon-monitor"
-        url = "#/copywriting"
+        icon = "icon-pencil"
       [[params.services.item]]
         title = "AdWords"
         description = "Google Ads are a fantastic way to spread awareness of your business online. It is important to have both a SEO strategy and a Google Ads strategy that work well together. We at Orange Circle Company can make that happen."
-        icon = "icon-monitor"
-        url = "#/adwords"
-      [[params.services.item]]
-        title = "Photography"
-        description = "A photo is worth a thousand words. Our photographers can help capture your business beautifully for the whole world to see. We will further edit your images to perform optimaly on your website. "
-        icon = "icon-monitor"
-        url = "#/photography"
-      [[params.services.item]]
-        title = "...and more to come!"
-        description = "We are always excited to learn the latest and greatest.  We always apply best practices with futureproofing in mind."
-        icon = "icon-monitor"
-        url = "#"
+        icon = "icon-google"
+   
 
   # ////////////////////////////////////////////////  WORK SECTION
   [params.work]
-    enable = true
+    enable = false
     title = "Work"
     description = "Some of Our Projects"
     footertext = ''
@@ -167,37 +149,33 @@ theme = "hugo-elate-theme"
     title = "Our Team"
     description = "We Make It All Happen"
     [[params.about.item]]
-      name = "Loki"
-      position = "Web Developer"
-      description = ""
+      name = "Bia"
+      position = "Web Developer & Administrator"
+      description = "Enjoys her cats. Hobbies include gardening, web development, cooking"
       img = "loki.jpg"
       alt = "Loki"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-globe", "https://biamccrory.com"],
+        ["icon-github", "https://github.com/biamccrory"]
       ]
     [[params.about.item]]
       name = "Arron"
-      position = "Web Developer"
-      description = "We are a small startup with a passion for tech and creativity.  We love what we do and will go that extra mile for you to make sure your project is the best it can be. We want to work with you to improve your business or idea."
-      img = "boo.jpg"
+      position = "Web Developer & CEO"
+      description = "Enjoys being creative & traveling. Hobbies include playing video games, making websites, making music"
+      img = "arron.jpg"
       alt = "Arron"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-globe", "https://arronmccrory.com"],
+        ["icon-github", "https://github.com/arron21"]
       ]
     [[params.about.item]]
-      name = "Thor"
-      position = "Web Developer"
-      description = ""
-      img = "thor.jpg"
-      alt = "Thor"
+      name = "Justine"
+      position = "Copywriter"
+      description = "Enjoys a good screenplay & theatre. Hobbies include teaching drama and running"
+      img = "justine.jpg"
+      alt = "Justine"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-github", "#"]
+        ["icon-globe", "https://justinerea.com"],
       ]
 
 
@@ -243,10 +221,9 @@ theme = "hugo-elate-theme"
     title = "Get in touch"
     description = " Give us a call! "
     details = [
-        ["icon-home", "The City of Orange"],
-        ["icon-phone", "(123) 465-6789"],
+        ["icon-home", "The City of Orange, but really we are everywhere"],
+        ["icon-phone", "(413) 453-9250"],
         ["icon-envelope", "info@orangecirclecompany.com"],
-        # ["icon-globe", '<a https://www.orangecirclecompany.com/" target="_blank">Our Website</a>']
       ]
     name = "Name"
     email = "Email"
