@@ -7,7 +7,7 @@ theme = "hugo-elate-theme"
   custom_css = ["css/custom.css"]
 
   #///////////////////////////////////////////////////////   META
-  author = "biamccrory"
+  author = "orange circle company"
   description = ""
   email = ""
 
@@ -60,19 +60,16 @@ theme = "hugo-elate-theme"
       [[params.services.item]]
         title = "Coding"
         description = "Have an idea for a website or an app? We at Orange Circle Company want to help your ideas become reality. We produce websites, webapps, and mobile apps that work across all devices."
-        icon = "icon-monitor"
-      [[params.services.item]]
-        title = "Consulting"
-        description = "We offer a variety of consulting services. We can help your business offer wifi to your customers. Or get your Point of Sale system set up so you can start selling fast. Even if you aren't sure if your business needs any consulting, we offer free initial consultations to let you know if we believe we could be a benefit to your business."
-        icon = "icon-layers2"
+        icon = "icon-mug"
+
       [[params.services.item]]
         title = "Websites"
         description = "A good website can provide your potential customers with everything they need to know and help them feel comfortable when choosing your business. We have a number of website solutions to fit any kind of business."
-        icon = "icon-video2"
+        icon = "icon-compass"
       [[params.services.item]]
         title = "SEO"
         description = "Show up on the first page of Google! Ever wonder how many people visit your website? With our analytics services we can provide detailed interactive reports that explain in detail who is visiting your website and from where."
-        icon = "icon-monitor"
+        icon = "icon-stats-dots"
       [[params.services.item]]
         title = "Copywriting"
         description = "Copy-writing is the most basic and important part of any project. riting good copy is something we take very seriously. All the copy we write for our clients is both pleasing to read and SEO rich."
@@ -80,15 +77,8 @@ theme = "hugo-elate-theme"
       [[params.services.item]]
         title = "AdWords"
         description = "Google Ads are a fantastic way to spread awareness of your business online. It is important to have both a SEO strategy and a Google Ads strategy that work well together. We at Orange Circle Company can make that happen."
-        icon = "icon-monitor"
-      [[params.services.item]]
-        title = "Photography"
-        description = "A photo is worth a thousand words. Our photographers can help capture your business beautifully for the whole world to see. We will further edit your images to perform optimaly on your website. "
-        icon = "icon-monitor"
-      [[params.services.item]]
-        title = "...and more to come!"
-        description = "We are always excited to learn the latest and greatest.  We always apply best practices with futureproofing in mind."
-        icon = "icon-monitor"
+        icon = "icon-google"
+   
 
   # ////////////////////////////////////////////////  WORK SECTION
   [params.work]
