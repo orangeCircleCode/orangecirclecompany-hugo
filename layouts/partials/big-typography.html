@@ -1,0 +1,9 @@
+{{ range .Site.Params.intro.item }}
+
+<section class="m2">
+    <div class="container">
+        <h3 class="em3 m0">{{ .title }} <span class="icon {{.icon}}"></span></h3>
+        <p class="">{{ .description }}</p>
+    </div>
+</section>
+{{ end }}
