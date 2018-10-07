@@ -24,27 +24,27 @@ theme = "hugo-elate-theme"
     contact = "Contact"
   # ///////////////////////////////////////////////  HERO SECTION
   [params.hero]
-    title = 'The "Everywhere" Agency'
+    title = 'The <mark>Everywhere</mark> Agency'
     subtitle = 'providing Websites, SEO, & Copywriting wherever you may need it'
   # ///////////////////////////////////////////////  INTRO SECTION
   [params.intro]
     [[params.intro.item]]
-    title = "Plan"
-    description = "We will help you plan a website that best suits your needs"
+    title = "Successful Digital Solutions"
+    description = "We are experts in the field of producing high quality digital solutions. After working over 7 years in the field, we have decided to share that expertise with you through. We produce high quality websites and digital marketing solutions."
     url = "#contact"
     button = "Get In Touch"
     icon = "icon-bulb"
     # img = "images/team/boo.jpg"
     [[params.intro.item]]
-    title = "Develop"
-    description = "We will will work closely with you to create a website that represents your brand and goal"
+    title = "Reach New Customers"
+    description = "Online marketing is not only fun, but its also extremely rewarding. People wouldn't spend money on online marketing if it didn't work. We would like to show your business that it too can benefit from online marketing and see results quickly."
     url = "#contact"
     button = "How?"
     icon = "icon-wrench"
     img = ""
     [[params.intro.item]]
-    title = "Launch"
-    description = "We will launch and maintain your site to give you the best possible results"
+    title = "Launch your business to new heights"
+    description = "We will launch and maintain your site or marketing campaign. We provide detailed digital reports that update in real time, always accessible for our clients. See where every dollar goes, where every potential lead comes from, see your new website take sail."
     url = "#contact"
     button = "Why us?"
     icon = "icon-rocket"

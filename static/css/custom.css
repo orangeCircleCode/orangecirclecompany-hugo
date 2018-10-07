@@ -44,10 +44,20 @@
 #fh5co-home .text-inner h1 {
   /* font-family: 'Cutive Mono', monospace; */
   /* font-family: 'Inconsolata', monospace; */
+  font-family: 'bebas_neue_regularregular';
   font-size: 90px;
-  font-weight: 100 !important;
+  font-size: 8vw;
+  font-weight: bold;
   color: #fefefe;
   margin: 0 0 20px 0;
+}
+
+h2, h3 {
+  font-family: 'bebas_neue_regularregular';
+}
+
+#fh5co-home .text-inner h2 {
+  color: #fff;
 }
 
 #fh5co-home {
@@ -212,4 +222,9 @@ html, body {
 
 .navbar-brand {
   padding-left: 10px !important;
+}
+
+
+mark, .mark {
+  padding:  0 .05em;
 }
