@@ -30,14 +30,14 @@ theme = "hugo-elate-theme"
   [params.intro]
     [[params.intro.item]]
     title = "Successful Digital Solutions"
-    description = "We are experts in the field of producing high quality digital solutions. After working over 7 years in the field, we have decided to share that expertise with you through. We produce high quality websites and digital marketing solutions."
+    description = "We are experts in the field of producing high quality digital solutions. After working over 7 years in the field, we have decided to share that expertise with you. We produce high quality websites and digital marketing solutions."
     url = "#contact"
     button = "Get In Touch"
     icon = "icon-bulb"
     # img = "images/team/boo.jpg"
     [[params.intro.item]]
     title = "Reach New Customers"
-    description = "Online marketing is not only fun, but its also extremely rewarding. People wouldn't spend money on online marketing if it didn't work. We would like to show your business that it too can benefit from online marketing and see results quickly."
+    description = "Online marketing is not only fun, but its also extremely rewarding. People wouldn't spend money on online marketing if it didn't work. We would like to show your business that it too can benefit from online marketing, and see results quickly."
     url = "#contact"
     button = "How?"
     icon = "icon-wrench"
