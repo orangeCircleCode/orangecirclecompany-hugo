@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    {{ partial "head.html" .}}
+    <style>
+        #fh5co-header {
+            background: #858a8d;
+            margin-top: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    {{ partial "nav.html" .}}
+
+    <div class="header-spacer"></div>
+    <div class="container">
+        
+    {{.Content}}
+    {{ range .Pages }}
+    <div class="block">
+        <h2 class="em2 m0"><a href="{{.URL}}">{{.Title}}</a></h2>
+        <p>{{.Description}}</p>
+    </div>
+
+    {{ end }}
+
+    
+</div>
+
+
+    
+	{{ if .Site.Params.footer.enable }}
+	{{ partial "footer.html" .}}
+	{{ end }}
+
+	{{ partial "js.html" .}}
+
+</body>
+
+</html>

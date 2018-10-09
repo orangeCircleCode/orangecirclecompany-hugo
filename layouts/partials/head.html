@@ -29,23 +29,24 @@
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700'
     rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="css/fonts.css">
+    <link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/fonts.css">
 
 <!-- Animate.css -->
-<link rel="stylesheet" href="css/animate.css">
+<link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/animate.css">
 <!-- Icomoon Icon Fonts-->
-<link rel="stylesheet" href="css/icomoon.css">
+<link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/icomoon.css">
 <!-- Simple Line Icons -->
-<link rel="stylesheet" href="css/simple-line-icons.css">
+<link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/simple-line-icons.css">
 <!-- Magnific Popup -->
-<link rel="stylesheet" href="css/magnific-popup.css">
+<link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/magnific-popup.css">
 <!-- Bootstrap  -->
-<link rel="stylesheet" href="css/bootstrap.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/utility.css">
+<link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/bootstrap.css">
+<link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/style.css">
+<link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/utility.css">
 
-{{ range .Site.Params.custom_css }}
-<link rel="stylesheet" href="{{ . }}">
-{{ end }}
+
+<!-- Custom CSS  -->
+<link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/custom.css">
+
 <!-- Modernizr JS -->
-<script src="js/modernizr-2.6.2.min.js"></script>
+<script src="{{ .Site.BaseURL }}/js/modernizr-2.6.2.min.js"></script>

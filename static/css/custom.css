@@ -228,3 +228,7 @@ html, body {
 mark, .mark {
   padding:  0 .05em;
 }
+
+.header-spacer {
+  height: 145px;
+}

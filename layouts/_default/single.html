@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    {{ partial "head.html" .}}
+
+</head>
+
+<body>
+    {{ partial "nav.html" .}}
+
+    <div class="m2"></div>
+    <section>
+        <main class="container">
+                {{.Content}}
+
+        </main>
+    </section>
+
+
+    {{ if .Site.Params.footer.enable }}
+    {{ partial "footer.html" .}}
+    {{ end }}
+
+    {{ partial "js.html" .}}
+</body>
+
+</html>
