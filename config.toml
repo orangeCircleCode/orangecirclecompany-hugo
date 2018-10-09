@@ -1,5 +1,5 @@
 # /////////////////////////////////////////////  PAGE SETTINGS
-baseurl = "localhost:1313"
+baseurl = "https://orangecirclecompany.com/"
 title = "Orange"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
