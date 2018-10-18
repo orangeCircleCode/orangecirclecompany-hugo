@@ -1,6 +1,6 @@
 # /////////////////////////////////////////////  PAGE SETTINGS
 baseurl = "https://orangecirclecompany.com/"
-title = "Orange"
+title = "Orange Circle Company"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
@@ -80,7 +80,7 @@ theme = "hugo-elate-theme"
         title = "AdWords"
         description = "Google Ads are a fantastic way to spread awareness of your business online. It is important to have both a SEO strategy and a Google Ads strategy that work well together. We at Orange Circle Company can make that happen."
         icon = "icon-google"
-   
+
 
   # ////////////////////////////////////////////////  WORK SECTION
   [params.work]
