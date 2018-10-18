@@ -10,7 +10,7 @@ theme = "hugo-elate-theme"
   #///////////////////////////////////////////////////////   META
   author = "orange circle company"
   description = "Website, SEO and Copywriting Services"
-  email = "biamccrory@gmail.com"
+  email = "info@orangecirclecompany.com"
 
   #/////////////////////////////////////////////////   NAVIGATION
   [params.navigation]

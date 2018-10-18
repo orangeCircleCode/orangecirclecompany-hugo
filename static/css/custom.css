@@ -220,7 +220,6 @@ width: inherit;
   color: #555555;
 }
 
-.form-control:active,
-.form-contro:focus {
-border-color: orange;
+.form-control:active, .form-control:focus {
+  border-color: orange !important;
 }
