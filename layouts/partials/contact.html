@@ -21,7 +21,7 @@
 				</div>
 				{{ if .Site.Params.contact.form }}
 				<div class="col-md-6 to-animate">
-					<form  action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}" method="POST" novalidate>
+					<form  action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}" method="POST">
 					<div class="form-group ">
 						{{ with .Site.Params.contact.name }}
 						<label for="name" class="sr-only">{{ . | markdownify }}</label>
