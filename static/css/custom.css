@@ -35,15 +35,64 @@
   font-size: 22px;
   font-weight: 300;
 }
+.navbar-header {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.navbar-brand {
+  padding-left: 10px !important;
+}
+
+
+mark, .mark {
+  padding:  0 .05em;
+}
+
+.header-spacer {
+  height: 145px;
+}
 /*//////////////////////////////////////////////////////////////----HERO-*/
+html, body {
+  margin: 0; padding: 0;
+}
+.hero-bkg-animated {
+  /* background: rgb(214, 116, 5) url("bg.jpg") repeat 0 0 !important; */
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+  height: 900px;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+  animation: slide 20s linear infinite;
+  background-blend-mode: color-burn;
+  opacity: 1;
+  background-color: #ffa500;
+
+}
+@-webkit-keyframes slide {
+  from { background-position: 0 0; }
+  to { background-position: -400px 0; }
+}
+@keyframes slide {
+from { background-position: 0 0; }
+to { background-position: -400px 0; }
+}
+
+.occ-logo {
+background-image: url('../images/occ-logo.png');
+background-size: cover;
+height: 40px;
+width: 40px;
+float: left;
+}
+
 #fh5co-home>div.container {
   width: inherit;
 }
 
 #fh5co-home .text-inner h1 {
-  /* font-family: 'Cutive Mono', monospace; */
-  /* font-family: 'Inconsolata', monospace; */
   font-family: 'bebas_neue_regularregular';
   font-size: 90px;
   font-size: 8vw;
@@ -94,20 +143,11 @@ opacity: 1;
   margin-top: 30px;
 }
 
-#fh5co-intro>div {
-  /* width: inherit; */
-}
-
-#fh5co-intro .fh5co-block>.overlay {
-  /* background: #fff; */
-  /* opacity: .6; */
-}
-
 #fh5co-intro .fh5co-block>.fh5co-text .fh5co-intro-icon {
   font-size: 50px;
   color: #555;
   margin-bottom: 30px;
-  display: block;
+  display: block;g
 }
 #fh5co-intro .fh5co-block>.fh5co-text .fh5co-intro-icon >a {
   text-decoration: none;
@@ -139,8 +179,6 @@ width: inherit;
 }
 #fh5co-work > div > div:nth-child(1),
 #fh5co-work > div > div.row.row-bottom-padded-sm {
-  /* margin: 0px; */
-  /* padding: 0px; */
 }
 
 #fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(1),
@@ -155,13 +193,9 @@ width: inherit;
 #fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(10),
 #fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(11),
 #fh5co-work > div > div.row.row-bottom-padded-sm > div:nth-child(12) {
-  /* padding: 0px; */
-  /* margin: 0px; */
 }
 
 #fh5co-work .fh5co-project-item {
-  /* padding: 0px; */
-  /* margin: 0px; */
   border-radius: 0px;
   width: 100%;
 }
@@ -186,59 +220,7 @@ width: inherit;
   color: #555555;
 }
 
-
-html, body {
-  margin: 0; padding: 0;
-}
-.hero-bkg-animated {
-  /* background: rgb(214, 116, 5) url("bg.jpg") repeat 0 0 !important; */
-  background-size: cover;
-  width: 100%;
-  margin: 0;
-  height: 900px;
-  box-sizing: border-box;
-  -webkit-animation: slide 20s linear infinite;
-  animation: slide 20s linear infinite;
-  background-blend-mode: color-burn;
-  opacity: 1;
-  background-color: #ffa500;
-
-}
-
-
-@-webkit-keyframes slide {
-    from { background-position: 0 0; }
-    to { background-position: -400px 0; }
-}
-@keyframes slide {
-  from { background-position: 0 0; }
-  to { background-position: -400px 0; }
-}
-
-.occ-logo {
-  background-image: url('../images/occ-logo.png');
-  background-size: cover;
-  height: 40px;
-  width: 40px;
-  float: left;
-}
-
-
-.navbar-header {
-  display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.navbar-brand {
-  padding-left: 10px !important;
-}
-
-
-mark, .mark {
-  padding:  0 .05em;
-}
-
-.header-spacer {
-  height: 145px;
+.form-control:active,
+.form-contro:focus {
+border-color: orange;
 }
