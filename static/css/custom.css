@@ -113,10 +113,22 @@ opacity: 1;
   text-decoration: none;
 }
 
-
 /*///////////////////////////////////////////////////////////----SERVICES-*/
 
+/*///////////////////////////////////////////////////////////----ABOUT-*/
+fh5co-person {
+  border: 2px solid #f1a507;
+  padding: 80px 20px 20px 20px;
+  float: left;
+  width: 350px;
+  height: 350px;
 
+}
+
+.fh5co-person figure img {
+border-radius: 60% 40% 70% 30% / 30% 52% 48% 70% ;
+box-shadow: 2px 2px 0px 10px orange;
+}
 /*///////////////////////////////////////////////////////////////----WORK-*/
 
 img.mfp-img {
