@@ -116,13 +116,11 @@ opacity: 1;
 /*///////////////////////////////////////////////////////////----SERVICES-*/
 
 /*///////////////////////////////////////////////////////////----ABOUT-*/
-fh5co-person {
+.fh5co-person {
   border: 2px solid #f1a507;
   padding: 80px 20px 20px 20px;
-  float: left;
   width: 350px;
   height: 350px;
-
 }
 
 .fh5co-person figure img {
