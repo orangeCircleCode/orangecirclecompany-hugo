@@ -24,8 +24,8 @@ theme = "hugo-elate-theme"
     contact = "Contact"
   # ///////////////////////////////////////////////  HERO SECTION
   [params.hero]
-    brand = 'Orange Circle Company'
-    title = 'The <mark>Everywhere</mark> Agency'
+    title = 'Orange Circle Company'
+    brand = 'The <mark>Everywhere</mark> Agency'
     subtitle = 'providing Websites, SEO, & Copywriting wherever you may need it'
   # ///////////////////////////////////////////////  INTRO SECTION
   [params.intro]
