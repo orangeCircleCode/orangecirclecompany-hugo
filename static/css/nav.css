@@ -1,0 +1,7 @@
+
+.occ-navbar .navbar-nav {
+    flex-direction: row !important;
+}
+.occ-navbar .navbar-nav li {
+    margin: 0 .5em;
+}

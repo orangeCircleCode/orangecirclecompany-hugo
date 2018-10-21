@@ -1,3 +1,4 @@
+{{ if eq .Kind "home" }}  
 	<!-- jQuery -->
 	<script src="{{ .Site.BaseURL }}/js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -17,6 +18,13 @@
 	{{ if .Site.Params.contact.map }}
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<script src="{{ .Site.BaseURL }}/js/google_map.js"></script>
-	{{ end }}
+{{ end }}
 	<!-- Main JavaScript -->
 	<script src="{{ .Site.BaseURL }}/js/main.js"></script>
+{{else}}
+	<script src="{{ .Site.BaseURL }}/js/BeerSlider.js"></script>
+	<script>
+		new BeerSlider(document.getElementById('beer-slider'));
+	</script>
+
+{{end}}

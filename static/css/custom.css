@@ -21,6 +21,32 @@
 }
 
 #fh5co-header .navbar-brand {
+  color: #ffa500 !important;
+}
+
+a, a:hover, a:active {
+  color: #ffa500 !important;
+}
+
+.fh5co-nav-toggle i {
+  background: #ffa500 !important;
+  color: #ffa500 !important;
+}
+
+.fh5co-nav-toggle i:before {
+  background: #ffa500 !important;
+  color: #ffa500 !important;
+}
+
+.fh5co-nav-toggle i:after {
+  background: #ffa500 !important;
+  color: #ffa500 !important;
+}
+.fh5co-nav-toggle.active i {
+  background: transparent !important;
+}
+
+#fh5co-header .navbar-brand {
   float: left;
   display: block;
   font-size: 30px;
@@ -46,6 +72,32 @@
 .navbar-brand {
   padding-left: 10px !important;
 }
+
+#fh5co-header .navbar-brand {
+  color: #ffa500 !important;
+}
+
+#fh5co-header.navbar-fixed-top #navbar li.active a {
+  color: #ffa500 !important;
+}
+
+
+#fh5co-header {
+  background: #fff;
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+}
+
+
+
+.occ-navbar {
+  
+}
+
+
+
+
 
 
 mark,
@@ -102,7 +154,7 @@ body {
 }
 
 .occ-logo {
-  background-image: url('../images/occ-logo.png');
+  background-image: url('../images/logo.png');
   background-size: cover;
   height: 40px;
   width: 40px;
