@@ -6,8 +6,33 @@
   border: none !important;
   border: 2px solid transparent !important;
 }
-
+.section-heading h2::after {
+  background: #ffa500;
+}
+#fh5co-header #navbar li.active a,
+#fh5co-header #navbar li.hover a,
+#fh5co-header #navbar li.focus a,
+#fh5co-header #navbar li.visited a {
+  color: #ffa500 !important;
+}
+.single {
+  /* height: 80vh; */
+  width: 100vw;
+  min-height: 70%;
+}
+.single-image {
+  width: 360px;
+  height: auto;
+  margin-bottom: 4vh;
+  z-index: -100;
+}
 /*//////////////////////////////////////////////////////////////----NAV-*/
+#fh5co-header #navbar li a:hover,
+#fh5co-header #navbar li a:active,
+#fh5co-header #navbar li a:focus,
+#fh5co-header #navbar li a:visited {
+  color: #ffa500 !important;
+}
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
   background-color: transparent;
 }
@@ -109,7 +134,7 @@ a:visited {
 
 
 .header-spacer {
-  height: 145px;
+  height: 80px;
 }
 
 /*//////////////////////////////////////////////////////////////----HERO-*/

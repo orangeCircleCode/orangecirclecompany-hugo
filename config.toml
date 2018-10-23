@@ -20,8 +20,9 @@ theme = "hugo-elate-theme"
     testimonials = "Testimonials"
     services = "Services"
     about = "About"
-    portfolio ="Portfolio"
+    portfolio = "Portfolio"
     contact = "Contact"
+
   # ///////////////////////////////////////////////  HERO SECTION
   [params.hero]
     title = 'Orange Circle Company'
@@ -62,10 +63,9 @@ theme = "hugo-elate-theme"
     description = "What We Can Do For You"
       [[params.services.item]]
         title = "Coding"
-        url = "services/coding"
+        url = "services/coding/"
         description = "Have an idea for a website or an app? We at Orange Circle Company want to help your ideas become reality. We produce websites, webapps, and mobile apps that work across all devices."
         icon = "icon-headphones"
-
       [[params.services.item]]
         title = "Websites"
         url = "services/websites"
@@ -78,7 +78,7 @@ theme = "hugo-elate-theme"
         icon = "icon-pie-chart"
       [[params.services.item]]
         title = "Copywriting"
-        url = "services/copywriting"
+        url = "/copywriting"
         description = "Copy-writing is the most basic and important part of any project. riting good copy is something we take very seriously. All the copy we write for our clients is both pleasing to read and SEO rich."
         icon = "icon-pencil"
       [[params.services.item]]
@@ -86,7 +86,6 @@ theme = "hugo-elate-theme"
         url = "services/adwords"
         description = "Google Ads are a fantastic way to spread awareness of your business online. It is important to have both a SEO strategy and a Google Ads strategy that work well together. We at Orange Circle Company can make that happen."
         icon = "icon-google"
-
 
   # ////////////////////////////////////////////////  WORK SECTION
   [params.work]
