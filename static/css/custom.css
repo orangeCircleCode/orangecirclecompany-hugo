@@ -9,7 +9,7 @@
 
 /*//////////////////////////////////////////////////////////////----NAV-*/
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
-  background-color: rgb(165, 162, 162);
+  background-color: transparent;
 }
 
 #fh5co-header.navbar-fixed-top .navbar-brand {
@@ -24,8 +24,15 @@
   color: #ffa500 !important;
 }
 
-a, a:hover, a:active {
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited {
   color: #ffa500 !important;
+}
+.fh5co-nav-toggle {
+  display: none;
 }
 
 .fh5co-nav-toggle i {
@@ -42,6 +49,7 @@ a, a:hover, a:active {
   background: #ffa500 !important;
   color: #ffa500 !important;
 }
+
 .fh5co-nav-toggle.active i {
   background: transparent !important;
 }
@@ -85,27 +93,20 @@ a, a:hover, a:active {
 #fh5co-header {
   background: #fff;
   margin-top: 0;
-  position: fixed;
+  position: sticky;
   top: 0;
 }
 
 
 
-.occ-navbar {
-  
-}
+.occ-navbar {}
 
 
 
 
 
 
-mark,
-.mark {
-  padding: 0 .05em;
-  color: #ffa500;
-  opacity: .7;
-}
+
 
 .header-spacer {
   height: 145px;
@@ -162,25 +163,38 @@ body {
 }
 
 #fh5co-home>div.container {
-  width: inherit;
+  /* width: inherit; */
+  width: 100vw;
+  height: auto;
 }
-
+#fh5co-home .text-wrap {
+  height: 100vh;
+}
+h2,
+h3 {
+  font-family: 'bebas_neue_regularregular';
+}
+/* first row in hero*/
+#fh5co-home>div.container>div>div>div>div>h1:nth-child(1) {}
+/* second row in hero*/
 #fh5co-home .text-inner h1 {
   font-family: 'bebas_neue_regularregular';
-  font-size: 90px;
   font-size: 8vw;
   font-weight: bold;
   color: #fefefe;
   margin: 0 0 20px 0;
 }
-
-h2,
-h3 {
-  font-family: 'bebas_neue_regularregular';
+mark,
+.mark {
+  padding: 0 .05em;
+  color: #ffa500;
+  opacity: .7;
 }
-
+/* third row in hero*/
 #fh5co-home .text-inner h2 {
   color: #fff;
+  font-size: 3.4vw;
+  margin-bottom: 15vh;
 }
 
 #fh5co-home {
@@ -190,7 +204,8 @@ h3 {
   background-attachment: fixed;
   background-position: center !important;
   position: relative;
-  width: 100%;
+  width: 100vw;
+  height: auto;
   overflow: hidden;
   opacity: .9;
 }
@@ -210,7 +225,7 @@ h3 {
 
   /* W3C Markup */
   background: linear-gradient(182deg, rgba(252, 252, 252, 0.02) 0.14%, rgba(252, 252, 252, 0.05) 35.18%, rgba(252, 252, 252, 0.97) 79.75%, rgba(255, 255, 255, 0.94) 99.61%);
-  opacity: 1;
+  opacity: .95;
 }
 
 /*//////////////////////////////////////////////////////////////----NTRO-*/
@@ -223,7 +238,6 @@ h3 {
   color: #555;
   margin-bottom: 30px;
   display: block;
-  g
 }
 
 #fh5co-intro .fh5co-block>.fh5co-text .fh5co-intro-icon>a {
