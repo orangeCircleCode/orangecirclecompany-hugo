@@ -78,7 +78,7 @@ theme = "hugo-elate-theme"
         icon = "icon-pie-chart"
       [[params.services.item]]
         title = "Copywriting"
-        url = " services/copywriting"
+        url = "services/copywriting"
         description = "Copy-writing is the most basic and important part of any project. riting good copy is something we take very seriously. All the copy we write for our clients is both pleasing to read and SEO rich."
         icon = "icon-pencil"
       [[params.services.item]]
