@@ -83,12 +83,13 @@ theme = "hugo-elate-theme"
         icon = "icon-pie-chart"
       [[params.services.item]]
         title = "Copywriting"
-        url = "/copywriting"
+        url = "services/copywriting"
         description = "Copy-writing is the most basic and important part of any project. riting good copy is something we take very seriously. All the copy we write for our clients is both pleasing to read and SEO rich."
         icon = "icon-pencil"
       [[params.services.item]]
         title = "AdWords"
         url = "services/adwords"
+        img = "images/googleads.png"
         description = "Google Ads are a fantastic way to spread awareness of your business online. It is important to have both a SEO strategy and a Google Ads strategy that work well together. We at Orange Circle Company can make that happen."
         icon = "icon-google"
 
