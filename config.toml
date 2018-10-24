@@ -57,6 +57,11 @@ theme = "hugo-elate-theme"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
   # ////////////////////////////////////////////  SERVICES SECTION
+  [params.process]
+    enable = true
+    title = "Our Process"
+    description = "How we do what we do"
+  # ////////////////////////////////////////////  SERVICES SECTION
   [params.services]
     enable = true
     title = "Services"

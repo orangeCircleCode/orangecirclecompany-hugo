@@ -24,6 +24,10 @@
 	{{ partial "testimonials.html" .}}
 	{{ end }}
 
+	{{ if .Site.Params.process.enable }}
+	{{ partial "process.html" .}}
+	{{ end }}
+
 	{{ if .Site.Params.services.enable }}
 	{{ partial "services.html" .}}
 	{{ end }}
