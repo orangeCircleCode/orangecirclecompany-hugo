@@ -56,7 +56,7 @@ theme = "hugo-elate-theme"
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
-  # ////////////////////////////////////////////  SERVICES SECTION
+  # ////////////////////////////////////////////  PROCESS SECTION
   [params.process]
     enable = true
     title = "Our Process"
