@@ -15,3 +15,4 @@ description: Google AdWords is an online advertising service that enables advert
 <p>Leveraging both the Google Search Network and the Google Display Network we can help your business get noticed much faster than just using traditional <a routerLink="../seo">SEO</a> methods.</p>
 
 <p>It is important to have both a SEO strategy and a Google Ads strategy that work well together. We at Orange Circle Company can make that happen.</p>
+
