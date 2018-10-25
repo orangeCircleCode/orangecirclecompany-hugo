@@ -215,7 +215,6 @@ body {
 }
 
 #fh5co-home>div.container {
-  /* width: inherit; */
   width: 100vw;
   height: auto;
 }
@@ -242,13 +241,13 @@ mark,
 .mark {
   padding: 0 .05em;
   color: #ffa500;
-  opacity: .7;
+  opacity: .6;
 }
 
 /* third row in hero*/
 #fh5co-home .text-inner h2 {
   color: #fff;
-  font-size: 3.4vw;
+  font-size: 3.6vw;
   margin-bottom: 15vh;
 }
 
@@ -284,6 +283,7 @@ mark,
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////----NTRO-*/
+body > section:nth-child(3)
 #fh5co-intro {
   margin-top: 30px;
 }
@@ -305,6 +305,9 @@ mark,
   width: 320px;
 }
 
+#fh5co-services  p {
+  font-size: 1.1em;
+}
 /*///////////////////////////////////////////////////////////////////////////////////////----ABOUT-*/
 #fh5co-about>div>div:nth-child(2) {
   display: flex;
@@ -363,6 +366,9 @@ img.mfp-img {
   width: 100%;
 }
 /*/////////////////////////////////////////////////////////////////////////////////////////////----CONTACT-*/
+#fh5co-contact > div > div.row.row-bottom-padded-md {
+  font-size: 1.3em;
+}
 #fh5co-contact div.m2 {
   margin:auto;
 }
