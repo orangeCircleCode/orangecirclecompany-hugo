@@ -1,4 +1,4 @@
-# /////////////////////////////////////////////  PAGE SETTINGS
+# /////////////////////////////////////////////////////////////////  PAGE SETTINGS
 baseurl = "https://orangecirclecompany.com/"
 title = "Orange Circle Company"
 languageCode = "en-us"
@@ -7,12 +7,11 @@ theme = "hugo-elate-theme"
 [params]
   custom_css = ["css/custom.css"]
   favicon = "favicon.ico"
-  #///////////////////////////////////////////////////////   META
   author = "orange circle company"
   description = "Website, SEO and Copywriting Services"
   email = "info@orangecirclecompany.com"
 
-  #/////////////////////////////////////////////////   NAVIGATION
+  #//////////////////////////////////////////////////////////////////   NAVIGATION
   [params.navigation]
     brand = "OCC"
     home = "Home"
@@ -23,12 +22,12 @@ theme = "hugo-elate-theme"
     portfolio = "Portfolio"
     contact = "Contact"
 
-  # ///////////////////////////////////////////////  HERO SECTION
+  # //////////////////////////////////////////////////////////////////  HERO SECTION
   [params.hero]
     title = 'Orange Circle Company'
     brand = 'The <mark>Everywhere</mark> Agency'
     subtitle = 'Website - SEO - Copywriting'
-  # ///////////////////////////////////////////////  INTRO SECTION
+  # ///////////////////////////////////////////////////////////////////  INTRO SECTION
   [params.intro]
     [[params.intro.item]]
     title = "Successful Digital Solutions"
@@ -56,12 +55,13 @@ theme = "hugo-elate-theme"
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
-  # ////////////////////////////////////////////  PROCESS SECTION
+
+  # ///////////////////////////////////////////////////////////////  PROCESS SECTION
   [params.process]
     enable = true
     title = "Our Process"
     description = "How we do what we do"
-  # ////////////////////////////////////////////  SERVICES SECTION
+  # //////////////////////////////////////////////////////////////  SERVICES SECTION
   [params.services]
     enable = true
     title = "Services"
@@ -93,7 +93,7 @@ theme = "hugo-elate-theme"
         description = "Google Ads are a fantastic way to spread awareness of your business online. It is important to have both a SEO strategy and a Google Ads strategy that work well together. We at Orange Circle Company can make that happen."
         icon = "icon-google"
 
-  # ////////////////////////////////////////////////  WORK SECTION
+  # /////////////////////////////////////////////////////////////////  WORK SECTION
   [params.work]
     enable = false
     title = "Work"
@@ -134,7 +134,7 @@ theme = "hugo-elate-theme"
       title = "Project 6"
       subtitle = "Design"
       url = "#/"
-  # ////////////////////////////////////////  TESTIMONIALS SECTION
+  # /////////////////////////////////////////////////////////////////  TESTIMONIALS SECTION
   [params.testimonials]
     enable = false
     title = "Testimonials"
@@ -154,14 +154,14 @@ theme = "hugo-elate-theme"
       person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
       img = "person3.jpg"
       alt = "Person3"
-  # ///////////////////////////////////////////////  ABOUT SECTION
+  # //////////////////////////////////////////////////////////////////////////////  ABOUT SECTION
   [params.about]
     enable = true
     title = "Our Team"
     description = "We Make It Happen"
     [[params.about.item]]
       name = "Bia"
-      position = "Web Developer & Administrator"
+      position = "Web Developer & Analytics"
       description = "Enjoys her cats. Hobbies include gardening, web development, cooking"
       img = "loki.jpg"
       alt = "Loki"
@@ -189,9 +189,7 @@ theme = "hugo-elate-theme"
         ["icon-globe", "https://justinerea.com"],
       ]
 
-
-
-  # ////////////////////////////////////////////  COUNTERS SECTION
+  # /////////////////////////////////////////////////////////////////////////////  COUNTERS SECTION
   [params.counters]
     enable = false
     title = "Stats"
@@ -224,7 +222,7 @@ theme = "hugo-elate-theme"
       to = 52
       interval = 50
       speed = 5000
-  # /////////////////////////////////////////////  CONTACT SECTION
+  # /////////////////////////////////////////////////////////////////////  CONTACT SECTION
   [params.contact]
     enable = true
     map = false
@@ -241,7 +239,7 @@ theme = "hugo-elate-theme"
     phone = "Phone"
     message = "Message"
     button = "Send message"
-  # //////////////////////////////////////////////  FOOTER SECTION
+  # ///////////////////////////////////////////////////////////////////////////  FOOTER SECTION
   [params.footer]
     enable = true
     copyright = '&copy; Orange Circle Company 2018 All Rights Reserved'
