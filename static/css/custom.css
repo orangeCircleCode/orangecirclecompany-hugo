@@ -1,4 +1,4 @@
-/*///////////////////////////////////////////////////----MAIN CUSTOM CSS-*/
+/*//////////////////////////////////////////////////////////////----MAIN CUSTOM CSS-*/
 
 .btn.btn-primary {
   background: #777777;
@@ -24,8 +24,7 @@
   min-height: 739px;
 }
 
-
-/*//////////////////////////////////////////////////////////////----NAV-*/
+/*///////////////////////////////////////////////////////////////////////////////----NAV-*/
 #fh5co-header #navbar li a:hover,
 #fh5co-header #navbar li a:active,
 #fh5co-header #navbar li a:focus,
@@ -115,17 +114,12 @@ a:visited {
   color: #ffa500 !important;
 }
 
-
 #fh5co-header {
   background: #fff;
   margin-top: 0;
   position: sticky;
   top: 0;
 }
-
-
-
-.occ-navbar {}
 
 .process-block-container {
   max-width: 100%;
@@ -166,17 +160,11 @@ a:visited {
   opacity: .2;
 }
 
-
-
-
-
-
-
 .header-spacer {
   height: 80px;
 }
 
-/*//////////////////////////////////////////////////////////////----HERO-*/
+/*//////////////////////////////////////////////////////////////////////////////----HERO-*/
 html,
 body {
   margin: 0;
@@ -241,9 +229,6 @@ h3 {
   font-family: 'bebas_neue_regularregular';
 }
 
-/* first row in hero*/
-#fh5co-home>div.container>div>div>div>div>h1:nth-child(1) {}
-
 /* second row in hero*/
 #fh5co-home .text-inner h1 {
   font-family: 'bebas_neue_regularregular';
@@ -268,7 +253,7 @@ mark,
 }
 
 #fh5co-home {
-  background-color: #ffa500;
+  background-color: #faad1d;
   background-blend-mode: color-burn;
   background-size: cover;
   background-attachment: fixed;
@@ -298,7 +283,7 @@ mark,
   opacity: .95;
 }
 
-/*//////////////////////////////////////////////////////////////----NTRO-*/
+/*///////////////////////////////////////////////////////////////////////////////////----NTRO-*/
 #fh5co-intro {
   margin-top: 30px;
 }
@@ -314,13 +299,13 @@ mark,
   text-decoration: none;
 }
 
-/*///////////////////////////////////////////////////////////----SERVICES-*/
+/*//////////////////////////////////////////////////////////////////////////////////----SERVICES-*/
 .single-pic {
   height: 320px;
   width: 320px;
 }
 
-/*///////////////////////////////////////////////////////////----ABOUT-*/
+/*///////////////////////////////////////////////////////////////////////////////////////----ABOUT-*/
 #fh5co-about>div>div:nth-child(2) {
   display: flex;
   flex-direction: row;
@@ -341,7 +326,7 @@ mark,
   box-shadow: 2px 2px 0px 10px orange;
 }
 
-/*///////////////////////////////////////////////////////////////----WORK-*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////----WORK-*/
 
 img.mfp-img {
   width: 100%;
@@ -377,8 +362,15 @@ img.mfp-img {
 #fh5co-work .fh5co-project-item img {
   width: 100%;
 }
-
-/*/////////////////////////////////////////////////////////////----FOOTER-*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////----CONTACT-*/
+#fh5co-contact div.m2 {
+  margin:auto;
+}
+.form-control:active,
+.form-control:focus {
+  border-color: orange !important;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////----FOOTER-*/
 #footer {
   background-color: #ffa500;
   color: #fff;
@@ -394,9 +386,4 @@ img.mfp-img {
 
 #footer>a>i {
   color: #555555;
-}
-
-.form-control:active,
-.form-control:focus {
-  border-color: orange !important;
 }
