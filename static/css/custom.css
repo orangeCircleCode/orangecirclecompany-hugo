@@ -1,12 +1,31 @@
 /*//////////////////////////////////////////////////////////////----GLOBAL-*/
-.btn.btn-primary {
-  background: #777777;
-  color: #fff;
-  border: none !important;
-  border: 2px solid transparent !important;
+div.form-group:nth-child(5){
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.btn.btn-round {
+  display: flex;
+  text-decoration: row;
+  flex-wrap: wrap;
+  background: #555555;
+  color: #fFA500;
+  /* border: none !important; */
+  /* border: 2px solid transparent !important; */
+  border-radius: 60% 40% 70% 30% / 38% 65% 35% 62%;
+  box-shadow: 2px 2px 0px 10px orange;
+  width: 150px;
+  height: 80px;
 }
 .header-spacer {
   height: 80px;
+}
+.section-heading {
+  padding-bottom: 0px;
+}
+.section-heading h2 {
+  margin: 0px;
+  padding: 0px;
 }
 .section-heading h2::after {
   background: #ffa500;
@@ -166,9 +185,26 @@ body > section:nth-child(3)
   text-decoration: none;
 }
 /*//////////////////////////////////////////////////////////////////////////////////----PROCESS-*/
+#fh5co-process::before {
+  position: absolute;
+  transform: rotate(-1.7deg);
+  -ms-transform: rotate(-1.7deg);
+  -webkit-transform: rotate(-1.7deg);
+  -o-transform: rotate(-1.7deg);
+  -moz-transform: rotate(-1.7deg);
+  background-color:#fff;
+  content: "";
+  z-index: 3;
+  display: inline-block;
+  height: 70px;
+  padding: 0;
+  width: 101%;
+  margin-top: -105px;
+  border-bottom: 8px solid #f1a507;
+}
 
 #fh5co-process {
-  padding: 80px 0px 80px 0px;
+  padding: 80px 0px 00px 0px;
 }
 .process-block-container {
   max-width: 100%;
@@ -182,7 +218,7 @@ body > section:nth-child(3)
   justify-content: center;
   align-items: center;
   padding: 2em;
-  border: 1px solid #efefef;
+  border: 2px solid #efefef;
 }
 .process-block i {
   display: block;
@@ -213,16 +249,23 @@ body > section:nth-child(3)
 }
 
 /*//////////////////////////////////////////////////////////////////////////////////----SERVICES-*/
+#fh5co-services {
+  padding-top: 80px;
+}
 #fh5co-services  p {
   font-size: 1.1em;
 }
 /*///////////////////////////////////////////////////////////////////////////////////////----ABOUT-*/
+#fh5co-about {
+  padding: 0;
+}
 #fh5co-about>div>div:nth-child(2) {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  padding: 30px 0px 40px 0px;
 }
 
 .fh5co-person {
@@ -290,7 +333,6 @@ img.mfp-img {
   padding: 0;
   width: 101%;
   margin-top: -105px;
-
 }
 
 #fh5co-contact > div > div.row.row-bottom-padded-md {
