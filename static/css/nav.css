@@ -1,7 +1,91 @@
+#fh5co-header {
+  background: #fff;
+  margin-top: 0;
+  position: sticky;
+  top: 0;
+}
 
 .occ-navbar .navbar-nav {
-    flex-direction: row !important;
+  flex-direction: row !important;
 }
+
+.navbar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*////////////////////////////////////---TOGGLE---*/
+.fh5co-nav-toggle {
+  display: none;
+}
+.fh5co-nav-toggle i,
+.fh5co-nav-toggle i:before,
+.fh5co-nav-toggle i:after {
+  background: #ffa500 !important;
+  color: #ffa500 !important;
+}
+.fh5co-nav-toggle.active i {
+  background: transparent !important;
+}
+/*////////////////////////////////////---LOGO---*/
+.occ-logo {
+    background-image: url('../images/logo.png');
+    background-size: cover;
+    height: 40px;
+    width: 40px;
+    float: left;
+  }
+  #fh5co-header .navbar-brand {
+    font-weight: 600;
+    color: #ffa500 !important;
+    padding-left: 10px !important;
+  }
+/*////////////////////////////////////---RIGHT NAV---*/
 .occ-navbar .navbar-nav li {
     margin: 0 .5em;
+}
+#fh5co-header #navbar li a:hover,
+#fh5co-header #navbar li a:active,
+#fh5co-header #navbar li a:focus,
+#fh5co-header #navbar li a:visited {
+  color: #ffa500 !important;
+}
+
+#fh5co-header.navbar-fixed-top #navbar li.active a span:before {
+  background-color: transparent;
+}
+
+#fh5co-header.navbar-fixed-top .navbar-brand {
+  color: #ffa500;
+}
+
+#fh5co-header.navbar-fixed-top #navbar li.active a {
+  color: #ffa500;
+}
+
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+  color: #ffa500 !important;
+}
+
+
+
+
+
+
+
+#fh5co-header #navbar li a {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+
+
+
+#fh5co-header.navbar-fixed-top #navbar li.active a {
+  color: #ffa500 !important;
 }
