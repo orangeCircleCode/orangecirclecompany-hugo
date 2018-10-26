@@ -29,6 +29,7 @@ theme = "hugo-elate-theme"
     subtitle = 'Website - SEO - Copywriting'
   # ///////////////////////////////////////////////////////////////////  INTRO SECTION
   [params.intro]
+    enable = true
     [[params.intro.item]]
     title = "Successful Digital Solutions"
     description = "We are experts in the field of producing high quality digital solutions. After working over 7 years in the field, we have decided to share that expertise with you. We produce high quality websites and digital marketing solutions."
@@ -51,7 +52,7 @@ theme = "hugo-elate-theme"
     icon = "icon-rocket"
     img = ""
     [params.intro.video]
-    enable = false
+    enable = true
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
@@ -191,9 +192,10 @@ theme = "hugo-elate-theme"
 
   # /////////////////////////////////////////////////////////////////////////////  COUNTERS SECTION
   [params.counters]
-    enable = false
+    enable = true
     title = "Stats"
-    background = "full_image_1.jpg"
+    # background = "full_image_1.jpg"
+    url = "http://www.internetlivestats.com/watch/websites/"
     [[params.counters.item]]
       description = "Finished projects"
       icon = "icon-briefcase"
@@ -222,6 +224,10 @@ theme = "hugo-elate-theme"
       to = 52
       interval = 50
       speed = 5000
+      [params.counter.video]
+        enable = true
+        title = "Stats"
+        url = "http://www.internetlivestats.com/watch/websites/"
   # /////////////////////////////////////////////////////////////////////  CONTACT SECTION
   [params.contact]
     enable = true

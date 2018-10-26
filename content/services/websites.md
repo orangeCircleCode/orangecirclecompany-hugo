@@ -6,13 +6,19 @@ keywords: "website, web_design, coder,"
 description: a location connected to the Internet that maintains one or more pages on the World Wide Web.
 ---
 
-<h2 class="title">Represent your business</h2>
-<h3 class="subtitle">
-Your website should be a reflection of your business
-</h3>
-<p>The average web designer/developer just makes websites.</p>
-<p>Professionals create effective websites and experiences that are focused on real results.</p>
-<p>Here at Orange Circle Company, we are seasoned professionals with over 8 years experiences.</p>
+
+## Represent your business
+
+### Your website should be a reflection of your business
+Your websites landing page is the first impression you make with potential customers. It will determin if people will stay on your site or move on.
+We use result-based best practices to craft your website.
+Your website will clearly communicate your message to your customers and give them the confidence to choose your services over your competitors.
+
+At Orange Circle Company we have over 8 years industry experience developing websites both on a small scale as well as for national campaigns in a variety of markets.
+
+We can offer you website solutions to fit you needs, whether you are creating a website for the first time or looking to update your current site.
+
+
 
 
 <div id="beer-slider" class="beer-slider" data-beer-label="before">
@@ -22,17 +28,21 @@ Your website should be a reflection of your business
     </div>
 </div>
 
-<p>Your website will include</p>
-<ul>
-<li>Hosting with all plans</li>
-<li>Domain name and renewal</li>
-<li>Logo & color scheme design</li>
-<li>Search engine optimized</li>
-<li>Website statistics tracking</li>
-<li>99.9% uptime guarantee</li>
-<li>Website statistics tracking</li>
-<li>Fully mobile responsive</li>
-</ul>
-<p>A good website can provide your potential customers with everything they need to know and help them feel comfortable when choosing your business.</p>
-<p>We have a number of website solutions to fit any kind of business, whether you are making a website for the first time or its time for an upgrade, Orange Circle Company has you covered.</p>
-<p>Contact us today and lets get started on your next website.</p>
+
+#### Your new website will include
+
+* Hosting with all plans
+* Domain name and renewal
+* Logo & color scheme design
+* Search engine optimized
+* Website statistics tracking
+* 99.9% uptime guarantee
+* Website statistics tracking
+* Fully mobile responsive
+
+If you would like to bring your current site up to date, we begin with a **full site audit**.
+Next, we will present our findings along with our recommendations.
+Depending on the audit results, we are usually able to offer you several options to choose from.
+
+
+**Contact us today and lets get started on your next website!**
