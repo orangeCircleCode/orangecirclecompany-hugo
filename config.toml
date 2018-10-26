@@ -192,7 +192,7 @@ theme = "hugo-elate-theme"
 
   # /////////////////////////////////////////////////////////////////////////////  COUNTERS SECTION
   [params.counters]
-    enable = true
+    enable = false
     title = "Stats"
     # background = "full_image_1.jpg"
     url = "http://www.internetlivestats.com/watch/websites/"
