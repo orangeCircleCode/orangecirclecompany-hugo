@@ -26,7 +26,7 @@ We can offer you website solutions to fit you needs, whether you are creating a 
     <div class="beer-reveal" data-beer-label="after">
         <img src="/images/cast-of-crowns.png" alt="Finished Website">
     </div>
-</div>
+</div style="margin-bottom: 30px;">
 
 
 #### Your new website will include

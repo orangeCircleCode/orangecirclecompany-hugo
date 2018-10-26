@@ -11,7 +11,7 @@ description: Google AdWords is an online advertising service that enables advert
 
 <h2 class="title">Google Ads</h2>
 
-### Spread awareness of your business effectively
+### Effectively increase your online presense
 
   There are many platforms from which to choose from to launch your digital campaign.  How do you begin to choose?
 

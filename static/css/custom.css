@@ -34,8 +34,18 @@ div.form-group:nth-child(5){
 .single {
   width: 100vw;
   min-height: 739px;
+  margin: 40px 0px 0px 0px;
 }
-
+.single h2 {
+  font-size: 50px;
+  margin-bottom: 0;
+  border-bottom: 5px #777777 solid;
+}
+.single h3 {
+  padding-left: 50px;
+  color: #ffa500;
+  font-weight: 500;
+}
 .slant-l {
   position: absolute;
   transform: rotate(-1.7deg);
