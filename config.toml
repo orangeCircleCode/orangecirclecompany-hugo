@@ -93,9 +93,13 @@ theme = "hugo-elate-theme"
       [[params.services.item]]
         title = "Google Ads"
         url = "services/google-ads"
-        img = "images/googleads.png"
         description = "Google Ads are a fantastic way to spread awareness of your business online. It is important to have both a SEO strategy and a Google Ads strategy that work well together. We at Orange Circle Company can make that happen."
         icon = "icon-google"
+        [[params.services.item]]
+        title = "Multimedia"
+        url = "services/multimedia"
+        description = "Optimized multimedia content on your website is essential.  We can optimize your image, video and graphic content for top performance"
+        icon = "icon-picture"
 
   # /////////////////////////////////////////////////////////////////  WORK SECTION
   [params.work]
