@@ -38,7 +38,7 @@ description: Google AdWords is an online advertising service that enables advert
 #### With Google Ads you have the option of Search Ads, Display Ads, Video Ads and App Ads.
 
 1.	We will work with you to determine the best options to reach your target audience.
-2.	Once your campaign is launched we will closely monitor performance utilizing Google Adwords data as well as Google **[Google Analytics][2]**.
+2.	Once your campaign is launched we will closely monitor performance utilizing Google Adwords data as well as **[Google Analytics][2]**.
 3.	We will provide you with regular reports and make recommendations based on the most current performance data.
 4.	We will implement any further changes and continue to monitor your campaigns performance.
 5.	We can provide you with campaign maintenance options or if you’re like us and think this stuff is fun, we can provide you with basic training to manage your campaign.

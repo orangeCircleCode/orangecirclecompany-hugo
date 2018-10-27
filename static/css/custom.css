@@ -5,6 +5,7 @@ div.form-group:nth-child(5){
   flex-wrap: wrap;
 }
 .btn.btn-round {
+  font-family: 'bebas_neue_regularregular';
   display: flex;
   text-decoration: row;
   flex-wrap: wrap;
@@ -14,7 +15,7 @@ div.form-group:nth-child(5){
   /* border: 2px solid transparent !important; */
   border-radius: 60% 40% 70% 30% / 38% 65% 35% 62%;
   box-shadow: 2px 2px 0px 10px orange;
-  width: 150px;
+  width: 120px;
   height: 80px;
 }
 .header-spacer {
@@ -34,17 +35,34 @@ div.form-group:nth-child(5){
 .single {
   width: 100vw;
   min-height: 739px;
-  margin: 40px 0px 0px 0px;
+  padding: 40px 0px 50px 0px;
+}
+.single p {
+
 }
 .single h2 {
   font-size: 50px;
   margin-bottom: 0;
-  border-bottom: 5px #777777 solid;
+  border-bottom: 3px #777777 solid;
 }
 .single h3 {
   padding-left: 50px;
   color: #ffa500;
   font-weight: 500;
+}
+.single h4 {
+  font-family: "Muli",avenir,"helvetica neue",helvetica,ubuntu,roboto,noto,"segoe ui",arial,sans-serif;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin: 1.2em 0 .5em;
+  line-height: 1.2;
+  color: #777777;
+}
+.single h5 {
+  font-size: 1.05em;
+  margin: 1.2em 0 .5em;
+  font-weight: 600;
+  color: #555555;
 }
 .slant-l {
   position: absolute;
@@ -289,7 +307,9 @@ body > section:nth-child(3)
   border-radius: 60% 40% 70% 30% / 38% 65% 35% 62%;
   box-shadow: 2px 2px 0px 10px orange;
 }
-
+.fh5co-person .fh5co-position {
+  font-weight: 600;
+}
 /*//////////////////////////////////////////////////////////////////////////////////////////////----WORK-*/
 
 img.mfp-img {
@@ -346,7 +366,7 @@ img.mfp-img {
 }
 
 #fh5co-contact > div > div.row.row-bottom-padded-md {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 #fh5co-contact{
