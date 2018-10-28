@@ -244,14 +244,14 @@ theme = "hugo-elate-theme"
     description = " Give us a call! "
     details = [
         ["icon-home", "The City of Orange, but really we are everywhere"],
-        ["icon-phone", "(413) 453-9250"],
+        ["icon-phone", "(949) 329-5030"],
         ["icon-envelope", "info@orangecirclecompany.com"],
       ]
     name = "Name"
     email = "Email"
     phone = "Phone"
     message = "Message"
-    button = "Send message"
+    button = "Send"
   # ///////////////////////////////////////////////////////////////////////////  FOOTER SECTION
   [params.footer]
     enable = true
