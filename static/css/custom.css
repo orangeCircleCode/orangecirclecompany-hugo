@@ -279,6 +279,7 @@ body > section:nth-child(3)
 #fh5co-services {
   padding-top: 80px;
 }
+
 #fh5co-services  p {
   font-size: 1.1em;
 }
@@ -387,6 +388,7 @@ div.m2 > div:nth-child(1) > div:nth-child(1){
 #footer {
   background-color: #ffa500;
   color: #fff;
+  padding: 50px 0px 0px 0px;
 }
 
 #footer .gotop {
