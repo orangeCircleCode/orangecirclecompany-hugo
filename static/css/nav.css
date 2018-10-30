@@ -1,7 +1,7 @@
 #fh5co-header {
+  position: fixed;
   background: #fff;
   margin-top: 0;
-  /* position: sticky; */
   top: 0;
 }
 
@@ -17,7 +17,7 @@
 
 /*/////////////////////////////////////////////////////////////---TOGGLE---*/
 .fh5co-nav-toggle {
-  display: none;
+  /* display: none; */
 }
 
 .fh5co-nav-toggle i,
@@ -78,23 +78,14 @@ a:visited,
   font-weight: 400;
 }
 
-/*//////////////////////////////////////////////////////////////---MEDIA QUERIES---*/
+/*//////////////////////////////////////////////////////////////---RESPONSIVE---*/
 @media screen and (max-width: 768px) {
+  #fh5co-header {
+    position: fixed;
+  }
   .occ-navbar .navbar-nav li{
-    font-size:16px;
-  }
-  .collapse:not{
-    display: none;
-    font-size:16px;
-  }
-  .occ-logo {
-    /* width: 30px; */
-    /* height: 30px; */
-  }
-  #fh5co-header .navbar-brand {
-    /* padding-left: 3px !important; */
-    padding-right: 3px !important;
-    margin-right: 0;
+    font-size:18px;
+    margin: 0 .3em;
   }
   #navbar,
   a,
@@ -109,15 +100,15 @@ a:visited,
   #fh5co-header #navbar li a:focus-within,
   #fh5co-header #navbar li a:visited,
   #fh5co-header #navbar li a span {
-    /* font-family: 'bebas_neue_regularregular'; */
     color: #ffa500 !important;
-    font-size:16px;
-
   }
-
   #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
     background-color: transparent;
   }
-
-
+  #fh5co-header #navbar li a {
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    transform:skewX(120deg);
+  }
 }

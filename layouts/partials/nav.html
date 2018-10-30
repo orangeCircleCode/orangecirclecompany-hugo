@@ -4,13 +4,16 @@
         <nav class="navbar navbar-default occ-navbar">
             <!--------------------------------------------------------------------------------------- LEFT NAVBAR -->
             <div class="navbar-header">
-                <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+                <!-- Mobile Toggle Menu Button -->
+                <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i>
+                </a>
                 <div class="occ-logo"></div>
                 <a class="navbar-brand" href="/">
-                    {{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
+                    {{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}
+                </a>
             </div>
             <!-------------------------------------------------------------------------------------- RIGHT NAVBAR -->
-            <div id="navbar">
+            <div id="navbar" >
                 {{ if eq .Kind "home" }}
                 <ul class="nav navbar-nav navbar-right">
 
@@ -24,7 +27,7 @@
                     <!-- -------------------------------------------------------------------------------------HOME -->
                     <li>
                         <a href="#" data-nav-section="home">
-                            <span>{{ with .Site.Params.navigation.home}}{{ . | markdownify }}{{ end }}</span>
+                            <span>{{ with .Site.Params.navigation.home}}{{ . | markdownify }}{{ end }} </span>
                         </a>
                     </li>
                     <!-- --------------------------------------------------------------------------------------WORK -->
@@ -128,7 +131,7 @@
                     <!-- ---------------------------------------------------------------------------------------ABOUT -->
                     {{ if .Site.Params.about.enable }}
                     <li>
-                        <a href="#/contact">
+                        <a href="/">
                             <span>{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>
@@ -136,7 +139,7 @@
                     <!-- --------------------------------------------------------------------------------------CONTACT -->
                     {{ if .Site.Params.contact.enable }}
                     <li>
-                        <a href="/" data-nav-section="contact">
+                        <a href="/">
                             <span>{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</span>
                         </a>
                     </li>

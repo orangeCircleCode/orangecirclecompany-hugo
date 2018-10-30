@@ -10,6 +10,7 @@ theme = "hugo-elate-theme"
   author = "orange circle company"
   description = "Website, SEO and Copywriting Services"
   email = "info@orangecirclecompany.com"
+  icon = "icon-home"
 
 [prmalinks]
   services = "/title"
