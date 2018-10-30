@@ -11,36 +11,45 @@ description: Google AdWords is an online advertising service that enables advert
 
 <h2 class="title">Google Ads</h2>
 
-### Effectively increase your online presense
+### Increase your online presense
 
-  There are many platforms from which to choose from to launch your digital campaign.  How do you begin to choose?
+  There are many platforms from which to choose from when deciding where to launch your digital campaign.
+
+  How do you begin to choose?
 
 #### No problem!  We got you covered.
 
-  We regularly monitor market share trends in digital marketing and offer you the top performing options for your particular goals.  This puts you ahead of competitors out the gate.
+  We regularly monitor market share trends in digital marketing and offer you the top performing options for your particular goals.  This puts you ahead of your competitors out the gate.
 
-  For example, did you know that the Google Search Platform accounts for over 90% of internet searches?
+  For example, did you know that the Google Search Platform accounts for over 90% of internet searches? Yes.... **90% !**
 
-  If your goal is to reach customers at the exact time that they are searching for your product or services, your best choice is **[Google Ads][1]**.
-  Google Ads leveragies both the Google Search Network and the Google Display Network
+  If your goal is to reach as many customers as possible at the exact time that they are conducting an internet search for your product or services, your best choice is **[Google Ads][1]**.
+  Google Ads leveragies both the Google Search Network and the Google Display Network.
 
+  Google partners with websites across the internet giving your ads the broadest possible reach.
   ![Google Ads!](googleads.jpeg "Google Ads")
 
-  Google Ads allows you to customize your campaign to be as broad or focused as you like and make changes in real time and measure results as soon as they become available.
+  Google Ads allows you to customize your campaign to be as broad or focused as you like.
+  You can also make changes to your campaign in real time and see the effect of those changes as soon as the next day.
+
   You have complete control over your budget which you can also change at any time.
   Since Google Ads is a PPC (pay per click) service, you only pay when a person engages with your ad.
 
 #### And did we mention you can customise your campaign?
 
-  If you want to target persons using cellphones, that like pizza, that are within 10 miles of your pizzeria between 12 noon and 1:00 P.M on Tuesdays you can do that!
-
+  If you want to target customers using cellphones, that like pizza, that are within 10 miles of your pizzeria between 12 noon and 1:00 P.M on Tuesdays you can do that!
 
 #### With Google Ads you have the option of Search Ads, Display Ads, Video Ads and App Ads.
 
-1.	We will work with you to determine the best options to reach your target audience.
-2.	Once your campaign is launched we will closely monitor performance utilizing Google Adwords data as well as **[Google Analytics][2]**.
+  We will work with you to determine the best options to reach your target audience.
+
+  These are the first steps.
+
+1.  We will design a campaign with your individual goals in mind.
+2.	Once your campaign is launched we will closely monitor your campaigns performance utilizing Google Adwords statistics as well as **[Google Analytics][2]**.
 3.	We will provide you with regular reports and make recommendations based on the most current performance data.
 4.	We will implement any further changes and continue to monitor your campaigns performance.
-5.	We can provide you with campaign maintenance options or if you’re like us and think this stuff is fun, we can provide you with basic training to manage your campaign.
+
+  We can provide you with campaign maintenance options or, if you’re like us and think this stuff is fun, we can provide you with basic training to manage your own campaign.
 
 #### Let us show you how Google Ads can work for you!

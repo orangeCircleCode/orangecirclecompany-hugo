@@ -12,26 +12,29 @@ description: Search engine optimization (SEO) is the process of affecting the vi
 
 ### Show up on the first page of searches
 
-**SEO (Search Engine Optimization)** is one of the most important factors in first, develping your website and second maintaining its ability to be found.
-If your site is not crafted and implemented in a way that search engines can access its content it may not appear in searches.
+**SEO (Search Engine Optimization)** is one of the most important factors in first, develping your website and second maintaining your websites ability to be found by search engines.
+If your website is not crafted and implemented in a way that search engines are able to access its content, it may not appear in internet searches.
 
-In creating your new site we implement only approved and recommended white hat methods.
+We use only approved white hat SEO methods ensuring your websites highest possible ranking by the various search engines that will be reading it.
 
-#### Whether building your new site or auditing your existing site, our process entails the following steps:
+#### Whether building your new website or auditing your existing website, we begin by doing the following for you:
 
-1. A site audit where we analyze all the factors that search engines take into account when selecting which sites show up in search results.
-2. A report of our findings along with our recommendations for your review.
-3. Implementation of recommended changes.
-4. A final site audit to measure the effectiveness of changes made.
+1. Audit your website and analyze all the factors that search engines take into account when selecting your websites placement in search results.
+2. Provide you with a report of our findings along with our recommendations.
+3. Implement all recommended changes.
+4. Conduct a final website audit to measure the effectiveness of changes made.
 
-#### Some of the key factors that search engines take into account are:
+#### Some key factors that search engines take into account are:
 
 ##### *Content Quality*
-* This is where  **[copywriting][2]**  plays a major role.  Search engines look at things like formatting and whether new copy has been added in addition to numberous  other factors in order to measure how well your site’s content is presented.
+* This is where  **[copywriting][2]**  plays an important role.  Search engines look at things such as formatting and measure the overall quality of your websites existing and new copy.
 
 ##### *Is the Site Mobile Friendly?*
-* This is where proper **[coding][3]** is cruciial as well as proper formating of imagaes and multi-media.
+* Did you know that the majority of internet searches are conducted on mobile devices?
+* This is where proper **[coding][3]** is cruciial in addition to the proper formating of imagaes and multi-media.
 
-We offer flexible SEO services to accommodate both busy sites with regularly added new content as well as sites that might only require the occational checkup.
+These are just two of the many factors that search engines analyze and rank your website on when determening your websites position in search results.
 
 **SEO** maintenacne along with **[Google Ads][1]** and **Google Analytics** work together to put your site at the top of internet searches.
+
+We can offer you flexible SEO services as well as combined SEO and GoogleAds services to further boost your websites placement in internet search results.

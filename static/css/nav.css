@@ -17,7 +17,7 @@
 
 /*/////////////////////////////////////////////////////////////---TOGGLE---*/
 .fh5co-nav-toggle {
-  /* display: none; */
+  display: none;
 }
 
 .fh5co-nav-toggle i,
@@ -55,6 +55,7 @@
 #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
   background-color: transparent;
 }
+
 #navbar,
 a,
 a:hover,
@@ -80,13 +81,23 @@ a:visited,
 
 /*//////////////////////////////////////////////////////////////---RESPONSIVE---*/
 @media screen and (max-width: 768px) {
+  #fh5co-header>div>nav {
+    font-size: 17px;
+  }
+
+  #navbar>ul>li.active {
+    font-size: 17px;
+  }
+
   #fh5co-header .navbar-brand {
-    color: #ffffff !important;
+    padding-left: 5px !important;
   }
-  .occ-navbar .navbar-nav li{
-    font-size:18px;
-    margin: 0 .3em;
+
+  .occ-navbar .navbar-nav li {
+    font-size: 18px;
+    margin: 0 .35em;
   }
+
   #navbar,
   a,
   a:hover,
@@ -102,13 +113,15 @@ a:visited,
   #fh5co-header #navbar li a span {
     color: #ffa500 !important;
   }
+
   #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
     background-color: transparent;
   }
+
   #fh5co-header #navbar li a {
     font-family: "Source Sans Pro", Arial, sans-serif;
     font-size: 1em;
     font-weight: 400;
-    transform:skewX(120deg);
+    transform: skewX(120deg);
   }
 }

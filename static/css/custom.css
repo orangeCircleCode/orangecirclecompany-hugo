@@ -23,10 +23,6 @@ div.form-group:nth-child(5) {
   height: 80px;
 }
 
-.section-heading {
-  /* padding-bottom: 0px; */
-}
-
 .section-heading h2 {
   margin: 0px;
   padding: 0px;
@@ -40,6 +36,7 @@ div.form-group:nth-child(5) {
   width: 100vw;
   min-height: 739px;
   padding: 80px 0px 50px 0px;
+  /* margin-top: 50px; */
 }
 
 .single h2 {
@@ -67,7 +64,7 @@ div.form-group:nth-child(5) {
   font-size: 1.05em;
   margin: 1.2em 0 .5em;
   font-weight: 600;
-  color: #555555;
+  color: #777777;
 }
 
 .slant-l {
@@ -173,19 +170,22 @@ h3 {
   font-weight: bold;
   color: #fefefe;
   margin: 0 0 20px 0;
+  line-height: 1em;
 }
 
 mark,
 .mark {
   padding: 0 .05em;
   color: #ffa500;
-  opacity: .6;
+  opacity: .9;
+  line-height: 1em;
 }
 
 /* third row in hero*/
 #fh5co-home .text-inner h2 {
   color: #fff;
   font-size: 5vw;
+  line-height: 1em;
   /* margin-bottom: 15vh; */
 }
 
@@ -205,7 +205,7 @@ mark,
 
   /* W3C Markup */
   background: linear-gradient(182deg, rgba(252, 252, 252, 0.02) 0.14%, rgba(252, 252, 252, 0.05) 35.18%, rgba(252, 252, 252, 0.97) 79.75%, rgba(255, 255, 255, 0.94) 99.61%);
-  opacity: 1;
+  opacity: .8;
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////----NTRO-*/
@@ -298,8 +298,18 @@ body>section:nth-child(3) #fh5co-intro {
   /* padding-top: 80px; */
 }
 
+#fh5co-services>div {
+  /* width: inherit; */
+}
+
+#fh5co-services .fh5co-service {
+  padding-right: 20px;
+
+}
+
 #fh5co-services p {
   font-size: 1.1em;
+  text-align: left;
 }
 
 /*///////////////////////////////////////////////////////////////////////////////////////----ABOUT-*/
@@ -390,7 +400,7 @@ img.mfp-img {
 }
 
 #fh5co-contact>div>div.row.row-bottom-padded-md {
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
 }
 
 #fh5co-contact {
@@ -415,10 +425,12 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
 .form-control:focus {
   border-color: orange !important;
 }
+
 #fh5co-contact h3,
 #fh5co-contact ul {
   color: #555555;
 }
+
 /*//////////////////////////////////////////////////////////////////////////////////////////////----FOOTER-*/
 #footer {
   background-color: #ffa500;
@@ -440,22 +452,70 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////----RESPONSIVE-*/
 @media screen and (max-width: 768px) {
+
+  /* SINGLE PAGE */
+  .single h2 {
+    font-size: 40px;
+  }
+  .single h3 {
+    font-size: 24px;
+  }
+  /* HEADER */
+  #fh5co-services:before,
+  #fh5co-services:after,
+  #fh5co-contact::before {
+    position: absolute;
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    background-color: transparent;
+    content: "";
+    z-index: 3;
+    display: inline-block;
+    height: 0px;
+    bottom: 0;
+    margin-bottom: 0px;
+    padding: 0;
+    width: 101%;
+  }
+
   .section-heading {
     margin-bottom: 0;
   }
-  #fh5co-home .text-inner h1  {
+
+  /* HERO */
+  #fh5co-home .text-inner h1 {
     font-size: 11vw;
   }
+
   #fh5co-home .text-inner h2 {
     font-size: 8vw;
   }
+
+  /* PROCESS */
   .em3 {
     font-size: 2em;
   }
 
+  /* SERVICES */
   #fh5co-services .icon {
     font-size: 50px;
     margin-bottom: 0;
+  }
+
+  #fh5co-services .fh5co-service {
+    padding-right: 0px;
+  }
+
+  #fh5co-services>div>div:nth-child(2) {
+    margin: 0 20px;
+  }
+
+  /* ABOUT */
+  #fh5co-about {
+    padding: 4em 0;
   }
 
   .fh5co-person {
@@ -464,12 +524,35 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
     margin-bottom: 4em;
   }
 
+  /* CONTACT */
+  #fh5co-contact {
+    padding: 4em 0;
+  }
+
+  #fh5co-contact h3,
+  #fh5co-contact ul {
+    color: #555555;
+  }
+
+  #fh5co-contact>div>div:nth-child(1)>div {
+    padding-bottom: 0px;
+  }
+
+  #fh5co-contact>div>div.row.row-bottom-padded-md>div:nth-child(2)>form>div:nth-child(5) {
+    margin-left: 10px;
+    margin-top: -50px;
+  }
+
+  #fh5co-contact>div>div.row.row-bottom-padded-md {
+    padding-bottom: 1em;
+  }
+
   #fh5co-contact>div>div:nth-child(1)>div {
     margin-bottom: 0;
   }
 
   #fh5co-contact>div>div.row.row-bottom-padded-md {
-    font-size: 1em;
+    /* font-size: 1em; */
 
   }
 
@@ -481,6 +564,7 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
     margin-bottom: 10px;
   }
 
+  /* FOOTER */
   #footer {
     /* padding: 10px 0px 0px 0px; */
   }
@@ -488,21 +572,6 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
   #footer>div>div:nth-child(1)>div {
     font-size: 17px;
   }
-  #fh5co-services .fh5co-service  {
-    padding-right: 0px;
-  }
-  #fh5co-services > div > div:nth-child(2) {
-    margin: 0 20px;
-  }
-  #fh5co-contact h3,
-  #fh5co-contact ul {
-    color: #555555;
-  }
-  #fh5co-contact > div > div.row.row-bottom-padded-md > div:nth-child(2) > form > div:nth-child(5) {
-    margin-right: 40px;
-    float: right;
-  }
-  #fh5co-contact > div > div.row.row-bottom-padded-md {
-    padding-bottom: 1em;
-  }
+
+
 }
