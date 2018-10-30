@@ -24,7 +24,7 @@ div.form-group:nth-child(5) {
 }
 
 .section-heading {
-  padding-bottom: 0px;
+  /* padding-bottom: 0px; */
 }
 
 .section-heading h2 {
@@ -39,7 +39,7 @@ div.form-group:nth-child(5) {
 .single {
   width: 100vw;
   min-height: 739px;
-  padding: 40px 0px 50px 0px;
+  padding: 80px 0px 50px 0px;
 }
 
 .single h2 {
@@ -226,7 +226,7 @@ body>section:nth-child(3) #fh5co-intro {
 
 /*//////////////////////////////////////////////////////////////////////////////////----PROCESS-*/
 #fh5co-process::before {
-  position: absolute;
+  position: relative;
   transform: rotate(-1.7deg);
   -ms-transform: rotate(-1.7deg);
   -webkit-transform: rotate(-1.7deg);
@@ -234,13 +234,13 @@ body>section:nth-child(3) #fh5co-intro {
   -moz-transform: rotate(-1.7deg);
   background-color: #fff;
   content: "";
-  z-index: 3;
+  z-index: -3;
   display: inline-block;
   height: 70px;
-  padding: 0;
+  padding-bottom: 0px;
   width: 101%;
-  margin-top: -105px;
-  border-bottom: 8px solid #f1a507;
+  border-top: 6px solid #f1a507;
+  margin-top: 35px;
 }
 
 #fh5co-process {
@@ -252,6 +252,7 @@ body>section:nth-child(3) #fh5co-intro {
   width: 720px;
   margin: auto;
   padding: 30px;
+  margin-bottom: 60px;
 }
 
 .process-block {
@@ -294,7 +295,7 @@ body>section:nth-child(3) #fh5co-intro {
 
 /*//////////////////////////////////////////////////////////////////////////////////----SERVICES-*/
 #fh5co-services {
-  padding-top: 80px;
+  /* padding-top: 80px; */
 }
 
 #fh5co-services p {
@@ -303,7 +304,7 @@ body>section:nth-child(3) #fh5co-intro {
 
 /*///////////////////////////////////////////////////////////////////////////////////////----ABOUT-*/
 #fh5co-about {
-  padding: 0;
+  /* padding: 0; */
 }
 
 #fh5co-about>div>div:nth-child(2) {
@@ -414,7 +415,10 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
 .form-control:focus {
   border-color: orange !important;
 }
-
+#fh5co-contact h3,
+#fh5co-contact ul {
+  color: #555555;
+}
 /*//////////////////////////////////////////////////////////////////////////////////////////////----FOOTER-*/
 #footer {
   background-color: #ffa500;
@@ -439,8 +443,11 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
   .section-heading {
     margin-bottom: 0;
   }
+  #fh5co-home .text-inner h1  {
+    font-size: 11vw;
+  }
   #fh5co-home .text-inner h2 {
-    font-size: 6vw;
+    font-size: 8vw;
   }
   .em3 {
     font-size: 2em;
@@ -480,5 +487,22 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
 
   #footer>div>div:nth-child(1)>div {
     font-size: 17px;
+  }
+  #fh5co-services .fh5co-service  {
+    padding-right: 0px;
+  }
+  #fh5co-services > div > div:nth-child(2) {
+    margin: 0 20px;
+  }
+  #fh5co-contact h3,
+  #fh5co-contact ul {
+    color: #555555;
+  }
+  #fh5co-contact > div > div.row.row-bottom-padded-md > div:nth-child(2) > form > div:nth-child(5) {
+    margin-right: 40px;
+    float: right;
+  }
+  #fh5co-contact > div > div.row.row-bottom-padded-md {
+    padding-bottom: 1em;
   }
 }
