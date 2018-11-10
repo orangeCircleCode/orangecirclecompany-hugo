@@ -443,6 +443,15 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
 #fh5co-contact ul {
   color: #555555;
 }
+.thanks {
+	width: 100vw;
+	height: 100%;
+	font-family: 'bebas_neue_regularregular';
+  font-size: 8vw;
+	font-weight: bold;
+	color: #ffa500;
+
+}
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////----FOOTER-*/
 #footer {
@@ -587,3 +596,5 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
 
 
 }
+
+
