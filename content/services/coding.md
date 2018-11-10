@@ -8,17 +8,16 @@ description: the process of assigning a code to something for the purposes of cl
 ---
 [1]: /services/websites
 
-## Affordable Coding Services
-### Let us build your next idea
+# Affordable Coding Services
 
-#### Have an idea for a website or an app?
+## Let us build your next idea
+
+### Do you have an idea for a website or an app?
+
 We can help your bring your ideas to life. We produce **[websites][1]**, webapps, and mobile apps that work across all devices.
 
-#### Our Services include:
+### Our Services include
 
-* **Single Page Marketing Sites**
-* **Marketing Funnel Sites**
-* **Web Applications in Angular 2**
-
-
-<app-contact-btn color="#F2994A"></app-contact-btn>
+- **Single Page Marketing Sites**
+- **Marketing Funnel Sites**
+- **Web Applications in Angular 2**

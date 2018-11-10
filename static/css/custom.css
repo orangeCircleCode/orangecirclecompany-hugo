@@ -40,19 +40,21 @@ div.form-group:nth-child(5) {
   /* margin-top: 50px; */
 }
 
-.single h2 {
+.single h1 {
+  font-family: 'bebas_neue_regularregular';
   font-size: 50px;
   margin-bottom: 0;
   border-bottom: 3px #777777 solid;
 }
 
-.single h3 {
+.single h2 {
+  font-family: 'bebas_neue_regularregular';
   padding-left: 50px;
   color: #ffa500;
   font-weight: 500;
 }
 
-.single h4 {
+.single h3 {
   font-family: "Muli", avenir, "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", arial, sans-serif;
   font-size: 1.3em;
   font-weight: bold;
@@ -61,7 +63,7 @@ div.form-group:nth-child(5) {
   color: #777777;
 }
 
-.single h5 {
+.single h4 {
   font-size: 1.05em;
   margin: 1.2em 0 .5em;
   font-weight: 600;

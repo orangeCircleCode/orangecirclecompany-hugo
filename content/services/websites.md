@@ -7,12 +7,13 @@ keywords: "website, web_design, coder,"
 description: a location connected to the Internet that maintains one or more pages on the World Wide Web.
 ---
 
+# Represent your business
 
-## Represent your business
-### Your website should be a reflection of your business
+## Your website should be a reflection of your business
 
-#### Landing Page
-Your websites landing page is the first impression you make with potential customers. It will determin if people will stay on your site or move on.
+### Landing Page
+
+Your websites landing page is the first impression you make with potential customers. It will determine if people will stay on your site or move on.
 We use result-based best practices to craft your website.
 Your website will clearly communicate your message to your customers and give them the confidence to choose your services over your competitors.
 
@@ -27,8 +28,7 @@ We can offer you website solutions to fit you needs, whether you are creating a 
     </div>
 </div style="margin-bottom: 30px;">
 
-
-#### Your new website will include
+### Your new website will include
 
 * **Hosting with all plans**
 * **Domain name and renewal**
@@ -43,5 +43,4 @@ If you would like to bring your current site up to date, we begin with a **full 
 Next, we will present our findings along with our recommendations.
 Depending on the audit results, we are usually able to offer you several options to choose from.
 
-
-#### Contact us today and lets get started on your next website!
+### Contact us today and lets get started on your next website!

@@ -10,22 +10,22 @@ description: Google AdWords is an online advertising service that enables advert
 [1]: http://ads.google.com/ "Google Ads"
 [2]: http://analytics.google.com/ "Google Analytics"
 
+# Google Marketing Platform
 
-## Google Marketing Platform
-### Increase your online presense
+## Increase your online presence
 
   There are many platforms from which to choose from when deciding where to launch your digital campaign.
 
   How do you begin to choose?
 
-#### No problem!  We got you covered.
+### No problem!  We got you covered.
 
   We regularly monitor market share trends in digital marketing and offer you the top performing options for your particular goals.  This puts you ahead of your competitors out the gate.
 
   For example, did you know that the Google Search Platform accounts for over 90% of internet searches? Yes.... **90% !**
 
   If your goal is to reach as many customers as possible at the exact time that they are conducting an internet search for your product or services, your best choice is **[Google Ads][1]**.
-  Google Ads leveragies both the Google Search Network and the Google Display Network.
+  Google Ads leverages both the Google Search Network and the Google Display Network.
 
   Google partners with websites across the internet giving your ads the broadest possible reach.
   ![Google Ads!](googleads.jpeg "Google Ads")
@@ -36,21 +36,21 @@ description: Google AdWords is an online advertising service that enables advert
   You have complete control over your budget which you can also change at any time.
   Since Google Ads is a PPC (pay per click) service, you only pay when a person engages with your ad.
 
-#### And did we mention you can customise your campaign?
+### And did we mention you can customize your campaign?
 
   If you want to target customers using cellphones, that like pizza, that are within 10 miles of your pizzeria between 12 noon and 1:00 P.M on Tuesdays you can do that!
 
-#### With Google Ads you have the option of Search Ads, Display Ads, Video Ads and App Ads.
+### With Google Ads you have the option of Search Ads, Display Ads, Video Ads and App Ads.
 
   We will work with you to determine the best options to reach your target audience.
 
-#### The first things we will do for you are:
+### The first things we will do for you are:
 
-1.  We will design a campaign with your individual goals in mind
-2.	Once your campaign is launched we will closely monitor your campaigns performance utilizing Google Adwords statistics as well as **[Google Analytics][2]**
-3.	We will provide you with regular reports and make recommendations based on the most current performance data
-4.	We will implement any further changes and continue to monitor your campaigns performance
+1. We will design a campaign with your individual goals in mind
+2. Once your campaign is launched we will closely monitor your campaigns performance utilizing Google Adwords statistics as well as **[Google Analytics][2]**
+3. We will provide you with regular reports and make recommendations based on the most current performance data
+4. We will implement any further changes and continue to monitor your campaigns performance
 
-  We can provide you with campaign maintenance options or, if you’re like us and think this stuff is fun, we can provide you with basic training to manage your own campaign.
+We can provide you with campaign maintenance options or, if you’re like us and think this stuff is fun, we can provide you with basic training to manage your own campaign.
 
-#### Let us show you how Google Ads can work for you!
+### Let us show you how Google Ads can work for you!
