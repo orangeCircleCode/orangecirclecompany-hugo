@@ -1,161 +1,85 @@
 <header role="banner" id="fh5co-header">
-    <div class="container">
-
-        <nav class="navbar navbar-default occ-navbar">
-            <!--------------------------------------------------------------------------------------- LEFT NAVBAR -->
-            <div class="navbar-header">
-                <!-- Mobile Toggle Menu Button -->
-                <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i>
-                </a>
-                <div class="occ-logo"></div>
-                <a class="navbar-brand" href="/">
-                    {{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}
-                </a>
-            </div>
-            <!-------------------------------------------------------------------------------------- RIGHT NAVBAR -->
-            <div id="navbar" >
-                {{ if eq .Kind "home" }}
-                <ul class="nav navbar-nav navbar-right">
-
-                    {{ range .Site.Menus.prepend }}
-                    <li>
-                        <a class="external" href="{{ .URL }}">
-                            <span>{{ .Name | markdownify }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                    <!-- -------------------------------------------------------------------------------------HOME -->
-                    <li>
-                        <a href="#" data-nav-section="home">
-                            <span>{{ with .Site.Params.navigation.home}}{{ . | markdownify }}{{ end }} </span>
-                        </a>
-                    </li>
-                    <!-- --------------------------------------------------------------------------------------WORK -->
-                    {{ if .Site.Params.work.enable }}
-                    <li>
-                        <a href="#" data-nav-section="work">
-                            <span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                    <!-- -------------------------------------------------------------------------------TESTIMONIALS -->
-                    {{ if .Site.Params.testimonials.enable }}
-                    <li>
-                        <a href="#" data-nav-section="testimonials">
-                            <span>{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                    <!-- ------------------------------------------------------------------------------------PROCESS -->
-                    {{ if .Site.Params.process.enable }}
-                    <li>
-                        <a href="#" data-nav-section="process">
-                            <span>{{ with .Site.Params.navigation.process }}{{ . | markdownify }}{{ end }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                    <!-- ------------------------------------------------------------------------------------SERVICES -->
-                    {{ if .Site.Params.services.enable }}
-                    <li>
-                        <a href="#" data-nav-section="services">
-                            <span>{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                    <!-- ---------------------------------------------------------------------------------------ABOUT -->
-                    {{ if .Site.Params.about.enable }}
-                    <li>
-                        <a href="#" data-nav-section="about">
-                            <span>{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                    <!-- --------------------------------------------------------------------------------------CONTACT -->
-                    {{ if .Site.Params.contact.enable }}
-                    <li>
-                        <a href="#" data-nav-section="contact">
-                            <span>{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-
-                    {{ range .Site.Menus.postpend }}
-                    <li>
-                        <a class="external" href="{{ .URL }}">
-                            <span>{{ .Name | markdownify }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                </ul>
-                {{else }}
-                <!--------------------------------------------------------------------------- RIGHT NAVBAR INTERNAL-->
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="/">
-                            <span>{{ with .Site.Params.navigation.home}}{{ . | markdownify }}{{ end }}</span>
-                        </a>
-                    </li>
-                    <!-- --------------------------------------------------------------------------------------WORK -->
-                    {{ if .Site.Params.work.enable }}
-                    <li>
-                        <a href="/">
-                            <span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                    <!-- -------------------------------------------------------------------------------TESTIMONIALS -->
-                    {{ if .Site.Params.testimonials.enable }}
-                    <li>
-                        <a href="/">
-                            <span>{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-
-                    <!-- ------------------------------------------------------------------------------------PROCESS -->
-                    {{ if .Site.Params.process.enable }}
-                    <li>
-                        <a href="/">
-                            <span>{{ with .Site.Params.navigation.process }}{{ . | markdownify }}{{ end }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                    <!-- -------------------------------------------------------------------SERVICES SINGLE LIST PAGE -->
-                    {{ if .Site.Params.services.enable }}
-                    <li>
-                        <a href="/services">
-                            <span>{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                    <!-- ---------------------------------------------------------------------------------------ABOUT -->
-                    {{ if .Site.Params.about.enable }}
-                    <li>
-                        <a href="/">
-                            <span>{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                    <!-- --------------------------------------------------------------------------------------CONTACT -->
-                    {{ if .Site.Params.contact.enable }}
-                    <li>
-                        <a href="/">
-                            <span>{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-
-                    {{ range .Site.Menus.postpend }}
-                    <li>
-                        <a class="external" href="{{ .URL }}">
-                            <span>{{ .Name | markdownify }}</span>
-                        </a>
-                    </li>
-                    {{ end }}
-                </ul>
-                {{end}}
-            </div>
-        </nav>
-
-    </div>
+	<div class="container">
+		<nav class="navbar navbar-default occ-navbar">
+			<!-- LEFT NAVBAR -->
+			<div class="navbar-header">
+				<!-- Mobile Toggle Menu Button -->
+				<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i>
+				</a>
+				<div class="occ-logo"></div>
+				<a class="navbar-brand" href="/">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
+			</div>
+			<!--- RIGHT NAVBAR -->
+			<div id="navbar">
+				{{ if eq .Kind "home" }}
+				<ul class="nav navbar-nav navbar-right">
+					{{ range .Site.Menus.prepend }}
+					<li><a class="external" href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
+					{{ end }}
+					<!---HOME -->
+					<li><a href="#" data-nav-section="home"><span>{{ with .Site.Params.navigation.home}}{{ . | markdownify }}{{ end }} </span></a></li>
+					<!-- WORK -->
+					{{ if .Site.Params.work.enable }}
+					<li><a href="#" data-nav-section="work"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li>
+					{{ end }}
+					<!-- TESTIMONIALS -->
+					{{ if .Site.Params.testimonials.enable }}
+					<li><a href="#" data-nav-section="testimonials"><span>{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span></a></li>
+					{{ end }}
+					<!-- PROCESS -->
+					{{ if .Site.Params.process.enable }}
+					<li><a href="#" data-nav-section="process"><span>{{ with .Site.Params.navigation.process }}{{ . | markdownify }}{{ end }}</span></a></li>
+					{{ end }}
+					<!-- SERVICES -->
+					{{ if .Site.Params.services.enable }}
+					<li><a href="#" data-nav-section="services"><span>{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span></a></li>
+					{{ end }}
+					<!-- ABOUT -->
+					{{ if .Site.Params.about.enable }}
+					<li><a href="#" data-nav-section="about"><span>{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</span></a></li>
+					{{ end }}
+					<!-- CONTACT -->
+					{{ if .Site.Params.contact.enable }}
+					<li><a href="#" data-nav-section="contact"><span>{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</span></a></li>
+					{{ end }}
+					{{ range .Site.Menus.postpend }}
+					<li><a class="external" href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
+					{{ end }}
+				</ul>
+				{{else }}
+				<!--- RIGHT NAVBAR INTERNAL-->
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="/"><span>{{ with .Site.Params.navigation.home}}{{ . | markdownify }}{{ end }}</span></a></li>
+					<!-- WORK -->
+					{{ if .Site.Params.work.enable }}
+					<li><a href="/"><span>{{ with .Site.Params.navigation.work }}{{ . | markdownify }}{{ end }}</span></a></li>
+					{{ end }}
+					<!--TESTIMONIALS -->
+					{{ if .Site.Params.testimonials.enable }}
+					<li><a href="/"><span>{{ with .Site.Params.navigation.testimonials }}{{ . | markdownify }}{{ end }}</span></a></li>
+					{{ end }}
+					<!-- PROCESS -->
+					{{ if .Site.Params.process.enable }}
+					<li><a href="/"><span>{{ with .Site.Params.navigation.process }}{{ . | markdownify }}{{ end }}</span></a></li>
+					{{ end }}
+					<!-- SERVICES SINGLE LIST PAGE -->
+					{{ if .Site.Params.services.enable }}
+					<li><a href="/services"><span>{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</span></a></li>
+					{{ end }}
+					<!-- ABOUT -->
+					{{ if .Site.Params.about.enable }}
+					<li><a href="/"><span>{{ with .Site.Params.navigation.about }}{{ . | markdownify }}{{ end }}</span></a></li>
+					{{ end }}
+					<!-- CONTACT -->
+					{{ if .Site.Params.contact.enable }}
+					<li><a href="/"><span>{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</span></a></li>
+					{{ end }}
+					{{ range .Site.Menus.postpend }}
+					<li><a class="external" href="{{ .URL }}"><span>{{ .Name | markdownify }}</span></a></li>
+					{{ end }}
+				</ul>
+				{{end}}
+			</div>
+		</nav>
+	</div>
 </header>

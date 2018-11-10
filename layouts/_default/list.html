@@ -1,36 +1,29 @@
 <html>
 
 <head>
-    {{ partial "head.html" .}}
+	{{ partial "head.html" .}}
 </head>
 
 <body>
+	{{ partial "nav.html" .}}
+	<div class="header-spacer"></div>
+	<div class="container">
+		{{.Content}}
 
-    {{ partial "nav.html" .}}
+		{{ range .Pages }}
+		<div class="block">
+			<h2 class="em2 m0"><a href="{{.URL}}">{{.Title}}</a></h2>
+			<p>{{.Description}}</p>
+		</div>
+		{{ end }}
+		
+	</div>
 
-    <div class="header-spacer"></div>
-    <div class="container">
+	{{ if .Site.Params.footer.enable }}
+		{{ partial "footer.html" .}}
+	{{ end }}
 
-        {{.Content}}
-        {{ range .Pages }}
-        <div class="block">
-            <h2 class="em2 m0"><a href="{{.URL}}">{{.Title}}</a></h2>
-            <p>{{.Description}}</p>
-        </div>
-
-        {{ end }}
-
-
-    </div>
-
-
-
-    {{ if .Site.Params.footer.enable }}
-    {{ partial "footer.html" .}}
-    {{ end }}
-
-    {{ partial "js.html" .}}
-
+	{{ partial "js.html" .}}
 </body>
 
 </html>

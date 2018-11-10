@@ -1,21 +1,21 @@
-<html >
+<html>
 
 <head>
-    {{ partial "head.html" .}}
+	{{ partial "head.html" .}}
 </head>
 
-<body >
+<body>
 
-    {{ partial "nav.html" .}}
-    <section class="single">
-        <main class="container">{{.Content}}</main>
-    </section>
+	{{ partial "nav.html" .}}
+	<section class="single">
+		<main class="container">{{.Content}}</main>
+	</section>
 
-    {{ if .Site.Params.footer.enable }}
-    {{ partial "footer.html" .}}
-    {{ end }}
+	{{ if .Site.Params.footer.enable }}
+		{{ partial "footer.html" .}}
+	{{ end }}
 
-    {{ partial "js.html" .}}
+	{{ partial "js.html" .}}
 
 </body>
 
