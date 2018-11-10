@@ -18,12 +18,12 @@ If your website is not crafted and implemented in a way that search engines are 
 
 We use only approved white hat SEO methods ensuring your websites highest possible ranking by the various search engines that will be reading it.
 
-#### Whether building your new website or auditing your existing website, we begin by doing the following for you:
+#### When we build your website you can expect:
 
-1. Audit your website and analyze all the factors that search engines take into account when selecting your websites placement in search results
-2. Provide you with a report of our findings along with our recommendations.
-3. Implement all recommended changes
-4. Conduct a final website audit to measure the effectiveness of changes made
+1. A full website audit and analysis of all factors that search engines take into account when selecting your websites placement in search results
+2. A report of our findings and recommendations
+3. Implementation of recommended changes
+4. A final website audit to measure the effectiveness of implemented changes
 
 #### Some key factors that search engines take into account are:
 
