@@ -8,6 +8,6 @@ description: multimedia is the integration of multiple media forms which include
 ---
 # Multimedia
 
-## Catch peoples attention with imagery
+## Catch their attention with imagery
 
 Optimized multimedia content on your website is essential.  We can optimize your image, video and graphic content for top performance.

@@ -22,7 +22,7 @@ description: Google AdWords is an online advertising service that enables advert
 
   We regularly monitor market share trends in digital marketing and offer you the top performing options for your particular goals.  This puts you ahead of your competitors out the gate.
 
-  For example, did you know that the Google Search Platform accounts for over 90% of internet searches? Yes.... **90% !**
+  For example, did you know that the Google Search Platform accounts for over 90% of internet searches? Yes...**90%!**
 
   If your goal is to reach as many customers as possible at the exact time that they are conducting an internet search for your product or services, your best choice is **[Google Ads][1]**.
   Google Ads leverages both the Google Search Network and the Google Display Network.
