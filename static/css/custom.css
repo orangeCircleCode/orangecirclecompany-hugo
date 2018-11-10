@@ -7,15 +7,16 @@ div.form-group:nth-child(5) {
 
 .btn.btn-round {
   font-family: 'bebas_neue_regularregular';
-  background: #555555;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  /* background: #555555; */
   color: #fFA500;
   font-weight: 500;
   font-size: 1em;
   /* border: none !important; */
   /* border: 2px solid transparent !important; */
-  border-radius: 60% 40% 70% 30% / 38% 65% 35% 62%;
-  box-shadow: 0px 2px 0px 6px orange;
-  /* width: 80px; */
+  /* border-radius: 60% 40% 70% 30% / 38% 65% 35% 62%; */
+  /* box-shadow: 0px 2px 0px 6px orange; */
+  width: 80px;
   /* height: 60px; */
 }
 
@@ -208,7 +209,7 @@ mark,
   opacity: .8;
 }
 
-/*///////////////////////////////////////////////////////////////////////////////////----NTRO-*/
+/*///////////////////////////////////////////////////////////////////////////////////----INTRO-*/
 body>section:nth-child(3) #fh5co-intro {
   margin-top: 30px;
 }
@@ -332,9 +333,19 @@ body>section:nth-child(3) #fh5co-intro {
   width: 350px;
   height: 350px;
 }
-
+/* Loki */
+#fh5co-about > div > div:nth-child(2) > div:nth-child(1) > div > figure > img{
+  border-radius: 36% 64% 46% 54% / 63% 31% 69% 37% ;
+  box-shadow: 2px 2px 0px 10px orange;
+}
+/* Arron */
 .fh5co-person figure img {
   border-radius: 60% 40% 70% 30% / 38% 65% 35% 62%;
+  box-shadow: 2px 2px 0px 10px orange;
+}
+/* Justine */
+#fh5co-about > div > div:nth-child(2) > div:nth-child(3) > div > figure > img {
+  border-radius: 43% 57% 61% 39% / 32% 52% 48% 68% ;
   box-shadow: 2px 2px 0px 10px orange;
 }
 
@@ -553,7 +564,6 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
 
   #fh5co-contact>div>div.row.row-bottom-padded-md {
     /* font-size: 1em; */
-
   }
 
   #fh5co-contact .fh5co-contact-info li {

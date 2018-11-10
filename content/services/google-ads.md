@@ -2,6 +2,7 @@
 title: "Google Ads"
 date: 2018-10-07T14:07:36-07:00
 draft: false
+category: "Services"
 keywords: "adwords, google_ads, analytics, ad_words, seo, searches, google, google_search, advertising, webpage"
 description: Google AdWords is an online advertising service that enables advertisers to compete to display brief advertising copy to web users, based in part on keywords, predefined by the advertisers, that might link the copy to the content of web pages shown to users. Web pages from Google and from partner websites are designed to allow Google to select and display this advertising copy.
 ---
@@ -9,8 +10,8 @@ description: Google AdWords is an online advertising service that enables advert
 [1]: http://ads.google.com/ "Google Ads"
 [2]: http://analytics.google.com/ "Google Analytics"
 
-<h2 class="title">Google Ads</h2>
 
+## Google Marketing Platform
 ### Increase your online presense
 
   There are many platforms from which to choose from when deciding where to launch your digital campaign.
@@ -43,12 +44,12 @@ description: Google AdWords is an online advertising service that enables advert
 
   We will work with you to determine the best options to reach your target audience.
 
-  These are the first steps.
+#### The first things we will do for you are:
 
-1.  We will design a campaign with your individual goals in mind.
-2.	Once your campaign is launched we will closely monitor your campaigns performance utilizing Google Adwords statistics as well as **[Google Analytics][2]**.
-3.	We will provide you with regular reports and make recommendations based on the most current performance data.
-4.	We will implement any further changes and continue to monitor your campaigns performance.
+1.  We will design a campaign with your individual goals in mind
+2.	Once your campaign is launched we will closely monitor your campaigns performance utilizing Google Adwords statistics as well as **[Google Analytics][2]**
+3.	We will provide you with regular reports and make recommendations based on the most current performance data
+4.	We will implement any further changes and continue to monitor your campaigns performance
 
   We can provide you with campaign maintenance options or, if you’re like us and think this stuff is fun, we can provide you with basic training to manage your own campaign.
 

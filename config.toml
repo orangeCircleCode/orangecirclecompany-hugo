@@ -12,6 +12,11 @@ theme = "hugo-elate-theme"
   email = "info@orangecirclecompany.com"
   icon = "icon-home"
 
+  [taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
 [prmalinks]
   services = "/title"
   #//////////////////////////////////////////////////////////////////   NAVIGATION
