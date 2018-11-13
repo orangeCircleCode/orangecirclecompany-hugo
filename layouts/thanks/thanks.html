@@ -7,12 +7,6 @@
 
 <head>
 	<style>
-		.gradient{
-			background:-webkit-gradient(linear, 99% 100%, 100% 0%, from(#FFFFFF), to(#C78E00));
-			background-attachment: fixed;
-
-		}
-
 		.thanks {
 			text-decoration: none;
 			display: block;
@@ -37,7 +31,6 @@
 			height: auto;
 			margin-top: 0;
 			color: black;
-			/* z-index: 100; */
 		}
 
 		.arrow {
@@ -53,16 +46,36 @@
 
 		}
 
+		@keyframes slideInLeft {
+			0% {
+				opacity: 0;
+			}
+
+			100% {
+				opacity: 1;
+			}
+		}
+
+		@keyframes slideInRight {
+			0% {
+				opacity: 0;
+			}
+
+			100% {
+				opacity: 1;
+			}
+		}
 
 		.slideInLeft {
 			animation-duration: 3.5s;
 			animation-delay: .8s;
-			transition-timing-function: ease-in-out;
+			transition-timing-function: ease-in;
 		}
+
 		.slideInRight {
 			animation-duration: 3s;
 			animation-delay: 1s;
-			transition-timing-function: ease-in-out;
+			transition-timing-function: ease-in;
 		}
 	</style>
 	<link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/fonts.css">
@@ -71,7 +84,7 @@
 	<link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/animate.css">
 </head>
 
-<body class="gradient">
+<body>
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8JPJ5X" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
@@ -79,10 +92,6 @@
 		<div class="slideInLeft"><a class="thanks" href="https://orangecirclecompany.com/">Thank You!</a></div>
 		<div><a href="https://orangecirclecompany.com/" class="arrow icon icon-action-undo"></a></div>
 		<div class="slideInRight"><a class="back" href="https://orangecirclecompany.com/">Home</a></div>
-
-		<!-- <div class="circle one"></div> -->
-		<!-- <div class="circle two"></div> -->
-		<!-- <div class="circle three"></div> -->
 	</div>
 </body>
 
