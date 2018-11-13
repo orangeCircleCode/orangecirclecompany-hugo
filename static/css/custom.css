@@ -561,8 +561,8 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
   }
 
   #fh5co-contact>div>div.row.row-bottom-padded-md>div:nth-child(2)>form>div:nth-child(5) {
-    margin-left: 10px;
-    margin-top: -50px;
+    /* margin-left: 10px; */
+    /* margin-top: -50px; */
   }
 
   #fh5co-contact>div>div.row.row-bottom-padded-md {
@@ -596,5 +596,3 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
 
 
 }
-
-
