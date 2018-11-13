@@ -28,7 +28,6 @@ description: Google AdWords is an online advertising service that enables advert
   Google Ads leverages both the Google Search Network and the Google Display Network.
 
   Google partners with websites across the internet giving your ads the broadest possible reach.
-  ![Google Ads!](googleads.jpeg "Google Ads")
 
   Google Ads allows you to customize your campaign to be as broad or focused as you like.
   You can also make changes to your campaign in real time and see the effect of those changes as soon as the next day.

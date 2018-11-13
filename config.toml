@@ -68,7 +68,7 @@ theme = "hugo-elate-theme"
 
   # ///////////////////////////////////////////////////////////////  PROCESS SECTION
   [params.process]
-    enable = false
+    enable = true
     title = "Our Process"
     description = "How we do what we do"
   # //////////////////////////////////////////////////////////////  SERVICES SECTION
