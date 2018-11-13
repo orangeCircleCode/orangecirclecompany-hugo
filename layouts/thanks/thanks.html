@@ -7,41 +7,10 @@
 
 <head>
 	<style>
-		* {
-			overflow: hidden;
-			margin: 0;
-		}
-		@keyframes circle {
-			from {
-				transform: scale(0)
-			}
+		.gradient{
+			background:-webkit-gradient(linear, 99% 100%, 100% 0%, from(#FFFFFF), to(#C78E00));
+			background-attachment: fixed;
 
-			to {
-				transform: scale(6)
-			}
-		}
-		.circle {
-			margin: 0 auto;
-			width: 300px;
-			height: 300px;
-			border: 20px solid orange;
-			border-radius: 50%;
-			position: absolute;
-			top: 5%;
-			left: 40%;
-			z-index: 1;
-		}
-
-		.one {
-			animation: circle 4s infinite linear;
-		}
-
-		.two {
-			animation: circle 3s infinite linear;
-		}
-
-		.three {
-			animation: circle 2s infinite linear;
 		}
 
 		.thanks {
@@ -56,6 +25,7 @@
 			margin-top: 20%;
 			color: black;
 		}
+
 		.back {
 			font-family: 'bebas_neue_regularregular';
 			text-decoration: none;
@@ -69,6 +39,7 @@
 			color: black;
 			/* z-index: 100; */
 		}
+
 		.arrow {
 			display: block;
 			text-align: center;
@@ -82,20 +53,32 @@
 
 		}
 
+
+		.slideInLeft {
+			animation-duration: 3.5s;
+			animation-delay: .8s;
+			transition-timing-function: ease-in-out;
+		}
+		.slideInRight {
+			animation-duration: 3s;
+			animation-delay: 1s;
+			transition-timing-function: ease-in-out;
+		}
 	</style>
 	<link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/fonts.css">
 	<link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/animate.css">
 	<link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/simple-line-icons.css">
+	<link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/animate.css">
 </head>
 
-<body class="">
+<body class="gradient">
 	<!-- Google Tag Manager (noscript) -->
 	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M8JPJ5X" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
 	<div class="">
-		<div><a  class="thanks" href="https://orangecirclecompany.com/">Thank You!</a></div>
+		<div class="slideInLeft"><a class="thanks" href="https://orangecirclecompany.com/">Thank You!</a></div>
 		<div><a href="https://orangecirclecompany.com/" class="arrow icon icon-action-undo"></a></div>
-		<div><a class="back" href="https://orangecirclecompany.com/">Home</a></div>
+		<div class="slideInRight"><a class="back" href="https://orangecirclecompany.com/">Home</a></div>
 
 		<!-- <div class="circle one"></div> -->
 		<!-- <div class="circle two"></div> -->
