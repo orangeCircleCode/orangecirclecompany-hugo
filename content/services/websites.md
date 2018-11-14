@@ -30,14 +30,14 @@ We can offer you website solutions to fit you needs, whether you are creating a 
 
 ### Your new website will include
 
-* **Hosting with all plans**
-* **Domain name and renewal**
-* **Logo & color scheme design**
-* **Search engine optimized**
-* **Website statistics tracking**
-* **99.9% uptime guarantee**
-* **Website statistics tracking**
-* **Fully mobile responsive**
+- **Hosting with all plans**
+- **Domain name and renewal**
+- **Logo & color scheme design**
+- **Search engine optimized**
+- **Website statistics tracking**
+- **99.9% uptime guarantee**
+- **Website statistics tracking**
+- **Fully mobile responsive**
 
 If you would like to bring your current site up to date, we begin with a **full site audit**.
 Next, we will present our findings along with our recommendations.

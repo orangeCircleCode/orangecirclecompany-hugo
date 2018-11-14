@@ -6,8 +6,8 @@ category: "Services"
 keywords: "websites, online marketing, online sales"
 description: Selling items or services online.
 ---
-[1]: https://www.shopify.com// "Shopify"
-[2]: https://woocommerce.com// "WooCommerce"
+[1]: https://www.shopify.com/ "Shopify"
+[2]: https://woocommerce.com/ "WooCommerce"
 [3]: https://ecommerce-platforms.com/ecommerce-reviews/the-ultimate-shopify-ecommerce-review/ "Shopify Review"
 
 # Be open to sales 24/7

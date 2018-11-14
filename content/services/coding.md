@@ -7,10 +7,10 @@ keywords: "coding, website, website_design, front_end_web"
 description: the process of assigning a code to something for the purposes of classification or identification.
 ---
 [1]: /services/websites
-[2]: https://www.specialolympics.org// "Special Olympics"
-[3]: https://www.asla.org// "ASLA"
-[4]: https://wordpress.com// "WordPress"
-[5]: https://www.shopify.com// "Shopify"
+[2]: https://www.specialolympics.org/ "Special Olympics"
+[3]: https://www.asla.org/ "ASLA"
+[4]: https://wordpress.com/ "WordPress"
+[5]: https://www.shopify.com/ "Shopify"
 [6]: /services/e-commerce
 
 # Affordable Coding Services
