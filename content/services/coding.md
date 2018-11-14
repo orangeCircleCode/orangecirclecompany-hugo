@@ -16,8 +16,13 @@ description: the process of assigning a code to something for the purposes of cl
 
 We can help your bring your ideas to life. We produce **[websites][1]**, webapps, and mobile apps that work across all devices.
 
+With over <em>8 years experience</em> in the field we have worked on some awesome projects for clients including the Special Olympics, American Society of Landscape Architects, and more.
+
+We specialize on developing Web Applications in Javascript and primarily Google's Angular. We also create lightning fast static websites built with the HUGO framework, which was also developed over at Google; And of course we can create WordPress sites from any of the thousands of beautiful templates available on the web or even customize a special template just for you. We also build Shopify stores, if you have more questions about e-commerce you can read more about it here.
+
+
 ### Our Services include
 
 - **Single Page Marketing Sites**
 - **Marketing Funnel Sites**
-- **Web Applications in Angular 2**
+- **Web Applications in Angular 2+**
