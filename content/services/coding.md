@@ -7,6 +7,11 @@ keywords: "coding, website, website_design, front_end_web"
 description: the process of assigning a code to something for the purposes of classification or identification.
 ---
 [1]: /services/websites
+[2]: https://www.specialolympics.org// "Special Olympics"
+[3]: https://www.asla.org// "ASLA"
+[4]: https://wordpress.com// "WordPress"
+[5]: https://www.shopify.com// "Shopify"
+[6]: /services/e-commerce
 
 # Affordable Coding Services
 
@@ -16,10 +21,15 @@ description: the process of assigning a code to something for the purposes of cl
 
 We can help your bring your ideas to life. We produce **[websites][1]**, webapps, and mobile apps that work across all devices.
 
-With over <em>8 years experience</em> in the field we have worked on some awesome projects for clients including the Special Olympics, American Society of Landscape Architects, and more.
+With over **8 years experience** in the field we have worked on some awesome projects for clients including the **[Special Olympics][2]**, **[American Society of Landscape Architects][3]**, and more.
 
-We specialize on developing Web Applications in Javascript and primarily Google's Angular. We also create lightning fast static websites built with the HUGO framework, which was also developed over at Google; And of course we can create WordPress sites from any of the thousands of beautiful templates available on the web or even customize a special template just for you. We also build Shopify stores, if you have more questions about e-commerce you can read more about it here.
+### We specialize on developing Web Applications in Javascript and Google's Angular.
 
+- We create lightning fast static websites built with the **HUGO** framework, which was also developed over at **Google**
+
+- We can create **[WordPress][4]** sites from any of the thousands of beautiful templates available on the web or even customize a special template just for you
+
+- For e-commerce, we build **[Shopify][5]** stores.  ***Read more about e-commerce [here][6]***
 
 ### Our Services include
 
