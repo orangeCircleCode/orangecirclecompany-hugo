@@ -45,7 +45,7 @@ theme = "hugo-elate-theme"
     url = "#contact"
     button = "Get In Touch"
     icon = "icon-bulb"
-    # img = "images/team/boo.jpg"
+
     [[params.intro.item]]
     title = "Reach New Customers"
     description = "Online marketing is not only fun, but its also extremely rewarding. People wouldn't spend money on online marketing if it didn't work. We would like to show your business that it too can benefit from online marketing, and see results quickly."
@@ -61,7 +61,7 @@ theme = "hugo-elate-theme"
     icon = "icon-rocket"
     img = ""
     [params.intro.video]
-    enable = true
+    enable = false
     title = "Watch the video"
     icon = "icon-play2"
     url = "https://vimeo.com/channels/staffpicks/93951774"
@@ -182,7 +182,7 @@ theme = "hugo-elate-theme"
       name = "Bia"
       position = "Web Developer & Analytics"
       description = "Enjoys her cats. Hobbies include gardening, web development, cooking"
-      img = "loki.jpg"
+      img = "loki.webp"
       alt = "Loki"
       social = [
         ["icon-globe", "https://biamccrory.com"],
@@ -192,7 +192,7 @@ theme = "hugo-elate-theme"
       name = "Arron"
       position = "Web Developer & CEO"
       description = "Enjoys being creative & traveling. Hobbies include playing video games, making websites, making music"
-      img = "arron.jpg"
+      img = "arron.webp"
       alt = "Arron"
       social = [
         ["icon-globe", "https://arronmccrory.com"],
@@ -202,7 +202,7 @@ theme = "hugo-elate-theme"
       name = "Justine"
       position = "Copywriter"
       description = "Enjoys a good screenplay & theatre. Hobbies include teaching drama and running"
-      img = "justine.jpg"
+      img = "justine.webp"
       alt = "Justine"
       social = [
         ["icon-globe", "https://justinerea.com"],

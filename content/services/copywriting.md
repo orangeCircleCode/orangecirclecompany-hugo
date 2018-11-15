@@ -13,7 +13,7 @@ description: the activity or occupation of writing the text of advertisements or
 
 ## Copywriting is key to getting your message out there
 
-We can't all be Shakespeare, but here at Orange Circle Company we strive to be ***... or not to be?***
+ ![Ads](/images/typewriter.webp)  We can't all be Shakespeare, but here at Orange Circle Company we strive to be ***... or not to be?***
 
 Writing good copy is something we take very seriously. All the copy we write for our clients is both pleasing to read and SEO rich.
 

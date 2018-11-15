@@ -14,6 +14,8 @@ description: Google AdWords is an online advertising service that enables advert
 
 ## Increase your online presence
 
+![Ads](/images/google.webp)
+
   There are many platforms from which to choose from when deciding where to launch your digital campaign.
 
   How do you begin to choose?
