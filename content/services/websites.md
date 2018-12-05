@@ -22,9 +22,9 @@ At Orange Circle Company we have over 8 years industry experience developing web
 We can offer you website solutions to fit you needs, whether you are creating a website for the first time or looking to update your current site.
 
 <div id="beer-slider" class="beer-slider" data-beer-label="before">
-    <img src="/images/cast-of-crowns-code.webp" alt="Code">
+    <img src="/images/cast-of-crowns-code.jpg" alt="Code">
     <div class="beer-reveal" data-beer-label="after">
-        <img src="/images/cast-of-crowns.webp" alt="Finished Website">
+        <img src="/images/cast-of-crowns.jpg" alt="Finished Website">
     </div>
 </div style="margin-bottom: 30px;">
 
