@@ -23,6 +23,9 @@
 			<div class="col-md-6 to-animate">
 				<!-- <form action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}" method="POST"> -->
 				<form action="/thanks" name="contact" method="POST" netlify-honeypot="bot-field" netlify>
+					<div style="height: .1px; width: .1px; opacity: 0; display: inline;">
+						<input style="height: .1px; width: .1px; opacity: 0; display: inline;" name="bot-field" />
+					</div>
 					<div class="form-group ">
 						{{ with .Site.Params.contact.name }}
 						<label for="name" class="sr-only">{{ . | markdownify }}</label>
