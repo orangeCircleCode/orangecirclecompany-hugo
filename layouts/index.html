@@ -33,7 +33,10 @@
 	{{ end }}
 
 	{{ if .Site.Params.services.enable }}
-	{{ partial "services.html" .}}
+	<div style="padding-top: 160px;" data-section="services"></div>
+	{{ partial "websites.html" .}}
+	{{ partial "googleseo.html" .}}
+	<!-- {{ partial "services.html" .}} -->
 	{{ end }}
 
 	{{ if .Site.Params.about.enable }}
