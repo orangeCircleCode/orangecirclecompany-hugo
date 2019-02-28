@@ -574,6 +574,7 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
 	width: 60%;
 	height: 70%;
 	overflow: hidden;
+	pointer-events: none;
 }
 .websites-animation-container .site:nth-child(1) {
 	left: 10%;
