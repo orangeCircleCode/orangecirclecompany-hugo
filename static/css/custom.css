@@ -574,18 +574,32 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
 	width: 60%;
 	height: 70%;
 	overflow: hidden;
-	pointer-events: none;
+	pointer-events: hover;
+	transition: all 100ms;
+}
+.websites-animation-container .site:before {
+	content: '';
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	position: absolute;
+}
+.websites-animation-container .site:hover {
+	z-index: 2;
+	transform: scale(1.05);
+	box-shadow: 0 15px 30px 0 rgba(0,0,0,0.19),
+            0 5px 15px 0 rgba(0,0,0,0.12);
 }
 .websites-animation-container .site:nth-child(1) {
-	left: 10%;
+	left: 0%;
 	top: 30%;
 }
 .websites-animation-container .site:nth-child(2) {
-	left: 40%;
+	left: 30%;
 	top: 10%;
 }
 .websites-animation-container .site:nth-child(3) {
-	left: 60%;
+	left: 50%;
 	top: 20%;
 }
 .websites-animation-container iframe {
