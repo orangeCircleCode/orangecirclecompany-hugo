@@ -86,6 +86,8 @@ Html,
 body {
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
+	width: 100vw;
 }
 
 #fh5co-home {
