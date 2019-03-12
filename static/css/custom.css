@@ -613,3 +613,24 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
 .websites-animation-container iframe * {
 	overflow: hidden;
 }
+
+.hero-home {
+	background: #fafafa !important;
+}
+
+.hero-home .text-inner h1, .hero-home .text-inner h2 {
+	color: #444 !important;
+}
+
+.hero-home mark {
+	color: #ffa500 !important;
+	opacity: 1 !important;
+	background: transparent !important;
+}
+
+.particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100vw;
+
+}

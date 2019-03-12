@@ -8,7 +8,7 @@ theme = "hugo-elate-theme"
   custom_css = ["css/custom.css"]
   favicon = "favicon.ico"
   author = "orange circle company"
-  description = "Website, SEO and Copywriting Services"
+  description = "Websites, SEO and Copywriting Services"
   email = "info@orangecirclecompany.com"
   icon = "icon-home"
 
@@ -35,7 +35,7 @@ theme = "hugo-elate-theme"
   [params.hero]
     title = 'Orange Circle Company'
     brand = 'The <mark>Everywhere</mark> Agency'
-    subtitle = 'Website - SEO - Copywriting'
+    subtitle = 'Websites - SEO - Copywriting'
   # ///////////////////////////////////////////////////////////////////  INTRO SECTION
   [params.intro]
     enable = true
