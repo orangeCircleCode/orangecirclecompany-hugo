@@ -254,7 +254,7 @@ theme = "hugo-elate-theme"
     title = "Get in touch"
     description = " Give us a call! "
     details = [
-        ["icon-home", "The City of Orange, but really we are everywhere"],
+        ["icon-home", "Orange County, California"],
         ["icon-phone", "(949) 329-5030"],
         ["icon-envelope", "info@orangecirclecompany.com"],
       ]
