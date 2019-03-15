@@ -21,7 +21,7 @@ theme = "hugo-elate-theme"
   services = "/title"
   #//////////////////////////////////////////////////////////////////   NAVIGATION
   [params.navigation]
-    brand = "OCC"
+    brand = "Orange Circle Company"
     home = "Home"
     testimonials = "Testimonials"
     services = "Services"
@@ -34,7 +34,7 @@ theme = "hugo-elate-theme"
   # //////////////////////////////////////////////////////////////////  HERO SECTION
   [params.hero]
     title = 'Orange Circle Company'
-    brand = 'The <mark>Everywhere</mark> Agency'
+    brand = 'Affordable Online Solutions'
     subtitle = 'Websites - SEO - Copywriting'
   # ///////////////////////////////////////////////////////////////////  INTRO SECTION
   [params.intro]

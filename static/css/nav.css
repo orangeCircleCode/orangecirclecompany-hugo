@@ -37,7 +37,7 @@
 }
 
 .occ-logo {
-  background-image: url('../images/logo.png');
+  background-image: url('../images/occ-logo.png');
   background-size: cover;
   height: 40px;
   width: 40px;
@@ -46,8 +46,11 @@
 
 #fh5co-header .navbar-brand {
   font-weight: 600;
-  color: #ffa500 !important;
+  /* color: #ffa500 !important; */
   padding-left: 10px !important;
+  font-family: sphere_sansregular;
+  color: #4F4F4F !important;
+  font-size: 1.5em;
 }
 
 /*////////////////////////////////////////////////////////////////---RIGHT NAV---*/
