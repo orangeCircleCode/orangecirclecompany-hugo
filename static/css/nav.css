@@ -37,10 +37,11 @@
 }
 
 .occ-logo {
-  background-image: url('../images/occ-logo.png');
+  background-image: url('../images/logo.png');
+
   background-size: cover;
   height: 40px;
-  width: 40px;
+  width: 160px;
   float: left;
 }
 
@@ -90,6 +91,7 @@ a:visited,
 
   #navbar>ul>li.active {
     font-size: 17px;
+    font-size: 18px;
   }
 
   #fh5co-header .navbar-brand {

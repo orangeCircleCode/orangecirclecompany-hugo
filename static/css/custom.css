@@ -34,8 +34,10 @@ div.form-group:nth-child(5) {
 }
 
 .single h1 {
-	font-family: 'bebas_neue_regularregular';
-	font-family: sphere_sansregular;
+	/* font-family: 'bebas_neue_regularregular'; */
+	/* font-family: sphere_sansregular; */
+	font-family: Nunito;
+	font-family: 'Nunito', sans-serif;
 
 	font-size: 50px;
 	margin-bottom: 0;
@@ -43,8 +45,10 @@ div.form-group:nth-child(5) {
 }
 
 .single h2 {
-	font-family: 'bebas_neue_regularregular';
-	font-family: sphere_sansregular;
+	/* font-family: 'bebas_neue_regularregular'; */
+	/* font-family: sphere_sansregular; */
+	font-family: 'Nunito', sans-serif;
+
 
 	/* padding-left: 50px; */
 	color: #ffa500;
@@ -161,14 +165,14 @@ h .hero-bkg-animated {
 h2,
 h3 {
 	/* font-family: 'bebas_neue_regularregular'; */
-	font-family: sphere_sansregular;
+	/* font-family: sphere_sansregular; */
 
 }
 
 /* second row in hero*/
 #fh5co-home .text-inner h1 {
-	font-family: 'bebas_neue_regularregular';
-	font-family: sphere_sansregular;
+	/* font-family: 'bebas_neue_regularregular'; */
+	/* font-family: sphere_sansregular; */
 
 	font-size: 3vw;
 	font-weight: bold;
@@ -647,4 +651,10 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
 
 h1, h2, h3, h4, h5, h6 {
 	color: #444;
+	font-family: 'Nunito', sans-serif;
+
+}
+
+#fh5co-header .navbar {
+	padding: .5em 1em;
 }
