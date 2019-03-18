@@ -8,7 +8,7 @@ div.form-group:nth-child(5) {
 .btn.btn-round {
 	font-family: 'bebas_neue_regularregular';
 	border: 2px solid rgba(0, 0, 0, 0.1);
-	color: #fFA500;
+	color: #f49940;
 	font-weight: 500;
 	font-size: 1em;
 	width: 80px;
@@ -24,7 +24,7 @@ div.form-group:nth-child(5) {
 }
 
 .section-heading h2::after {
-	background: #ffa500;
+	background: #f49940;
 }
 
 .single {
@@ -51,7 +51,7 @@ div.form-group:nth-child(5) {
 
 
 	/* padding-left: 50px; */
-	color: #ffa500;
+	color: #f49940;
 	font-weight: 500;
 }
 
@@ -123,7 +123,7 @@ h .hero-bkg-animated {
 	animation: slide 20s linear infinite;
 	background-blend-mode: color-burn;
 	opacity: 1;
-	background-color: #ffa500;
+	background-color: #f49940;
 
 }
 
@@ -179,13 +179,13 @@ h3 {
 	color: #fefefe;
 	margin: 0 0 20px 0;
 	line-height: 1em;
-	color: #ffa500 !important;
+	color: #f49940 !important;
 }
 
 mark,
 .mark {
 	padding: 0 .05em;
-	color: #ffa500;
+	color: #f49940;
 	opacity: .9;
 	line-height: 1em;
 }
@@ -437,19 +437,19 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
 	font-family: 'bebas_neue_regularregular';
 	font-size: 8vw;
 	font-weight: bold;
-	color: #ffa500;
+	color: #f49940;
 
 }
 
 /*//////////////////////////////////////////////////////////////////////////////////////////////----FOOTER-*/
 #footer {
-	background-color: #ffa500;
+	background-color: #f49940;
 	color: #fff;
 	padding: 50px 0px 0px 0px;
 }
 
 #footer .gotop {
-	background-color: #ffa500;
+	background-color: #f49940;
 }
 
 .social.social-circle a {
@@ -637,7 +637,7 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
 }
 
 .hero-home mark {
-	color: #ffa500 !important;
+	color: #f49940 !important;
 	opacity: 1 !important;
 	background: transparent !important;
 }

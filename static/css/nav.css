@@ -23,8 +23,8 @@
 .fh5co-nav-toggle i,
 .fh5co-nav-toggle i:before,
 .fh5co-nav-toggle i:after {
-  background: #ffa500 !important;
-  color: #ffa500 !important;
+  background: #f49940 !important;
+  color: #f49940 !important;
 }
 
 .fh5co-nav-toggle.active i {
@@ -33,7 +33,7 @@
 
 /*/////////////////////////////////////////////////////////////////---LOGO---*/
 #fh5co-header.navbar-fixed-top .navbar-brand {
-  color: #ffa500;
+  color: #f49940;
 }
 
 .occ-logo {
@@ -47,7 +47,7 @@
 
 #fh5co-header .navbar-brand {
   font-weight: 600;
-  /* color: #ffa500 !important; */
+  /* color: #f49940 !important; */
   padding-left: 10px !important;
   font-family: sphere_sansregular;
   color: #4F4F4F !important;
@@ -70,7 +70,7 @@ a:visited,
 #fh5co-header #navbar li a:active,
 #fh5co-header #navbar li a:focus,
 #fh5co-header #navbar li a:visited {
-  color: #ffa500 !important;
+  color: #f49940 !important;
 }
 
 .occ-navbar .navbar-nav li {
@@ -116,7 +116,8 @@ a:visited,
   #fh5co-header #navbar li a:focus-within,
   #fh5co-header #navbar li a:visited,
   #fh5co-header #navbar li a span {
-    color: #ffa500 !important;
+    color: #f49940 !important;
+    color: #f49940 !important;
   }
 
   #fh5co-header.navbar-fixed-top #navbar li.active a span:before {
