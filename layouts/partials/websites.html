@@ -1,12 +1,16 @@
-<div class="container">
+<div class="container" style="min-height: 110vh;">
+
   <div class="row">
-    <div class="col-md-6 col-sm-12">
+
+    <div class="col-lg-6 col-md-12">
       <h2 class="em3 ls-1 font-weight-bold">Websites</h2>
       <p class="em2">We create beautiful websites that capture the essence of your brand.</p>
       <a href="/services/websites/" class="btn btn-default">Learn More</a>
     </div>
-    <div class="col-md-6 col-sm-12">
-      <div class="websites-animation-container">
+    <div class="col-lg-6 col-md-12">
+        {{ partial "website-carousel.html" .}}
+
+      <!-- <div class="websites-animation-container">
         <div class="site">
           <iframe width="100%" scrolling="nox" src="https://occ-template-agency.netlify.com/"></iframe>
         </div>
@@ -16,11 +20,7 @@
         <div class="site">
           <iframe width="100%"  scrolling="no" src="https://occ-template-portfolio.netlify.com/"></iframe>
         </div>
-        <!-- <img src="https://source.unsplash.com/random/400x200" class="fadeInUp animated" alt="" />
-        <img src="https://source.unsplash.com/random/300x200" class="fadeInUp animated" alt="" />
-        <img src="https://source.unsplash.com/random/500x200" class="fadeInUp animated" alt="" /> -->
-
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
