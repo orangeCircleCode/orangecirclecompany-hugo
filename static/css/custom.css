@@ -327,7 +327,7 @@ body>section:nth-child(3) #fh5co-intro {
 	border: 2px solid #f1a507;
 	padding: 80px 20px 20px 20px;
 	width: 350px;
-	height: 350px;
+	min-height: 350px;
 }
 
 /* Loki */
