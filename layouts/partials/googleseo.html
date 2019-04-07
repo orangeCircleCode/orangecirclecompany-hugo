@@ -1,12 +1,90 @@
-<div class="container" style="min-height: 110vh;">
+<div class="container" style="min-height: 110vh; position: relative; display: flex; align-items: center;">
+    <div 
+    class="lax" 
+    data-lax-preset="fadeInOut driftLeft"
+    style="
+    position: absolute;
+    width: 50vmin;
+    height: 50vmin;
+    background: #f49940 !important;
+    border-radius: 100%;
+    left: -25vmin;
+    top: 20vh;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    z-index: 2;
+    "></div>
+    <div 
+    class="lax" 
+    data-lax-preset="fadeInOut driftLeft"
+    style="
+      position: absolute;
+      width: 30vmin;
+      height: 30vmin;
+      background: #f49940 !important;
+      border-radius: 100%;
+      left: 35vmin;
+      top: 70vh;
+      box-shadow: 0 0 10px rgba(0,0,0,.2);
+      z-index: 1;
+      "></div>
+    <div 
+    class="lax" 
+    data-lax-preset="fadeInOut driftRight"
+    style="
+      position: absolute;
+      width: 15vmin;
+      height: 15vmin;
+      background: #f49940 !important;
+      border-radius: 100%;
+      left: 25vmin;
+      top: -100px;
+      top: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,.2);
+      "></div>
+        
+  <div 
+  class="lax" 
+  data-lax-preset="fadeInOut driftLeft"
+  style="
+        position: absolute;
+        width: 15vmin;
+        height: 15vmin;
+        background: white !important;
+        border: 4px solid #f49940;
+        border-radius: 100%;
+        left: 15vmin;
+        top: -100px;
+        top: 320px;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+        "></div>
+    <div 
+    class="lax" 
+    data-lax-preset="fadeInOut driftRight"
+    style="
+        position: absolute;
+        width: 7vmin;
+        height: 7vmin;
+        background: white !important;
+        border: 4px solid #f49940;
+        border-radius: 100%;
+        right: 25vmin;
+        top: -100px;
+        top: 320px;
+        box-shadow: 0 0 10px rgba(0,0,0,.2);
+        background: #f4f4f4;
+        "></div>
     <div class="row">
       <div class="col-md-6 col-sm-12">
           {{ partial "googleseo-carousel.html" .}}
       </div>
       <div class="col-md-6 col-sm-12">
-        <h2 class="em3 text-right ls-1 font-weight-bold">Google Ads</h2>
-        <p class="em2 text-right">We can manage your business analytics and improve your marketing with Google Ads.</p>
-        <div class="text-right">
+        <h2 class="em3 text-right ls-1 font-weight-bold" style="z-index: 8;
+        position: relative;
+    ">Google Ads</h2>
+        <p class="em2 text-right" style="z-index: 8;
+        position: relative;
+    ">We can manage your business analytics and improve your marketing with Google Ads.</p>
+        <div class="text-right" style="z-index: 8; position: relative;">
           <a href="/services/google-ads/" class="btn btn-default">Learn More</a>
         </div>
       </div>

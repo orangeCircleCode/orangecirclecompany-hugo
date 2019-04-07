@@ -83,8 +83,28 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
 <link type='text/css' rel="stylesheet" href="{{ .Site.BaseURL }}/css/fonts.css">
 <!-- <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,400italic,700' rel='stylesheet' type='text/css'> -->
 <link href="https://fonts.googleapis.com/css?family=Nunito:200,400,700,900,900i" rel="stylesheet"  type='text/css'>
+
+{{ $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+
+
 <!-- Modernizr JS -->
 <script src="{{ .Site.BaseURL }}/js/modernizr-2.6.2.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+<script>
+window.onload = function() {
+	lax.setup() // init
+
+	const updateLax = () => {
+		lax.update(window.scrollY)
+		window.requestAnimationFrame(updateLax)
+	}
+
+	window.requestAnimationFrame(updateLax)
+}</script>
+
+
 <script>
 	"use strict";
 
