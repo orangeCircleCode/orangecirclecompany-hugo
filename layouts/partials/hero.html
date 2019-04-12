@@ -10,7 +10,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h1 class="to-animate">{{ with .Site.Params.hero.brand }}{{ . | markdownify }}{{ end }}</h1>
-						<h3 class="to-animate">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+						<h2 class="to-animate">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</h2>
 					</div>
 				</div>
 			</div>
@@ -111,7 +111,7 @@
 				},
 				"bubble": {
 					"distance": 109.63042366068159,
-					"size": 10,
+					"size": 20,
 					"duration": 10,
 					"opacity": 1,
 					"speed": 3

@@ -18,8 +18,7 @@
 
 	{{ partial "hero.html" .}}
 
-	<!-- {{ partial "big-typography.html" .}} -->
-
+	{{/*  {{ partial "big-typography.html" .}}  */}}
 	{{ if .Site.Params.work.enable }}
 	{{ partial "work.html" .}}
 	{{ end }}
@@ -32,11 +31,13 @@
 	{{ partial "process.html" .}}
 	{{ end }}
 
-	{{ if .Site.Params.services.enable }}
-	<div style="padding-top: 160px;" data-section="services"></div>
+	{{ if .Site.Params.websites.enable }}
 	{{ partial "websites.html" .}}
 	{{ partial "googleseo.html" .}}
-	<!-- {{ partial "services.html" .}} -->
+	{{ end }}
+
+	{{ if .Site.Params.services.enable }}
+	{{ partial "services.html" .}}
 	{{ end }}
 
 	{{ if .Site.Params.about.enable }}

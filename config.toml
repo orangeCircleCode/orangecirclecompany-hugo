@@ -26,6 +26,7 @@ theme = "hugo-elate-theme"
     testimonials = "Testimonials"
     services = "Services"
     process = "Process"
+    websites = "Websites"
     work = "Work"
     about = "About"
     portfolio = "Portfolio"
@@ -68,48 +69,53 @@ theme = "hugo-elate-theme"
 
   # ///////////////////////////////////////////////////////////////  PROCESS SECTION
   [params.process]
-    enable = true
+    enable = false
     title = "Our Process"
     description = "How we do what we do"
+  # ///////////////////////////////////////////////////////////////  WEBSITES SECTION
+  [params.websites]
+    enable = true
+    title = "Our Websites"
+    description = ""
   # //////////////////////////////////////////////////////////////  SERVICES SECTION
   [params.services]
     enable = true
     title = "Services"
-    description = "What We Can Do For You"
+    # description = "What We Can Do For You"
       [[params.services.item]]
         title = "Coding"
         url = "services/coding/"
-        description = "Have an idea for a website or an app? We at Orange Circle Company want to help your ideas become reality. We produce websites, webapps, and mobile apps that work across all devices."
+        # description = "Have an idea for a website or an app? We at Orange Circle Company want to help your ideas become reality. We produce websites, webapps, and mobile apps that work across all devices."
         icon = "icon-headphones"
       [[params.services.item]]
         title = "Websites"
         url = "services/websites"
-        description = "A good website can provide your potential customers with everything they need to know and help them feel comfortable when choosing your business. We have a number of website solutions to fit any kind of business."
+        # description = "A good website can provide your potential customers with everything they need to know and help them feel comfortable when choosing your business. We have a number of website solutions to fit any kind of business."
         icon = "icon-compass"
       [[params.services.item]]
         title = "SEO"
         url = "services/seo"
-        description = "Show up on the first page of Google! Ever wonder how many people visit your website? With our analytics services we can provide detailed interactive reports that explain in detail who is visiting your website and from where."
+        # description = "Show up on the first page of Google! Ever wonder how many people visit your website? With our analytics services we can provide detailed interactive reports that explain in detail who is visiting your website and from where."
         icon = "icon-pie-chart"
       [[params.services.item]]
         title = "Copywriting"
         url = "services/copywriting"
-        description = "Copy-writing is the most basic and important part of any project. riting good copy is something we take very seriously. All the copy we write for our clients is both pleasing to read and SEO rich."
+        # description = "Copy-writing is the most basic and important part of any project. riting good copy is something we take very seriously. All the copy we write for our clients is both pleasing to read and SEO rich."
         icon = "icon-pencil"
       [[params.services.item]]
         title = "Google Ads"
         url = "services/google-ads"
-        description = "Google Ads are a fantastic way to spread awareness of your business online. It is important to have both a SEO strategy and a Google Ads strategy that work well together. We at Orange Circle Company can make that happen."
+        # description = "Google Ads are a fantastic way to spread awareness of your business online. It is important to have both a SEO strategy and a Google Ads strategy that work well together. We at Orange Circle Company can make that happen."
         icon = "icon-google"
         [[params.services.item]]
         title = "Multimedia"
         url = "services/multimedia"
-        description = "Optimized multimedia content on your website is essential.  We can optimize your image, video and graphic content for top performance"
+        # description = "Optimized multimedia content on your website is essential.  We can optimize your image, video and graphic content for top performance"
         icon = "icon-picture"
         [[params.services.item]]
         title = "E-Commerce"
         url = "services/e-commerce"
-        description = "An online storefront allows your store to be open 24/7 and reach more customers than ever before."
+        # description = "An online storefront allows your store to be open 24/7 and reach more customers than ever before."
         icon = "icon-money"
 
   # /////////////////////////////////////////////////////////////////  WORK SECTION
@@ -191,7 +197,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Arron"
       position = "Web Developer & CEO"
-      description = "Enjoys being creative & traveling. Hobbies include playing video games, making websites, making music"
+      description = "Enjoys being creative & traveling. Hobbies include video games, making websites and music"
       img = "arron.jpg"
       alt = "Arron"
       social = [
