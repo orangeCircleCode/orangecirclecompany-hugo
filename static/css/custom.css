@@ -231,37 +231,48 @@ body>section:nth-child(3) #fh5co-intro {
 /*//////////////////////////////////////////////////////////////////////////////////----WEBSITES-*/
 
 body > div:nth-child(7) > div:nth-child(2) > div > div > div > h3 {
-	text-align: center;
+	/* text-align: center; */
 }
 .row-websites {
 	overflow: auto !important;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
 }
 
 .row__inner {
-
+	white-space: initial !important;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
 }
 .tile {
-	margin-right: 0px;
-	border: 10px solid rgb(214, 214, 214);
-	border-radius: 15px;
-	transform: scale(.8);
+	/* margin-right: 0px; */
+	/* border: 5px solid rgb(214, 214, 214); */
+	border-radius: 5px;
+	/* transform: scale(.8); */
+	margin: 15px;
 }
 .tile__media {
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
-	width: 375px;
-	height: 667px;
+  /* bottom: 0; */
+  /* left: 0; */
+  /* right: 0; */
+  /* top: 0; */
+	/* width: 375px; */
+	/* height: 667px; */
 }
 
 iframe {
-	border-radius: 15px;
-	min-width: 100%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  top: 0;
+	/* border-radius: 15px; */
+	/* min-width: 100%; */
+  /* bottom: 0; */
+  /* left: 0; */
+  /* right: 0; */
+  /* top: 0; */
 }
 
 /*//////////////////////////////////////////////////////////////////////////////////----PROCESS-*/
@@ -556,7 +567,7 @@ div.m2>div:nth-child(1)>div:nth-child(1) {
 
 	/* HERO */
 	#fh5co-home .text-inner h1 {
-		font-size: 11vw;
+		font-size: 10vw;
 	}
 
 	#fh5co-home .text-inner h2 {
