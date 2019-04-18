@@ -1,74 +1,65 @@
 <div class="row-websites">
   <div class="row__inner">
-      <div class="tile" href="https://castofcrowns.com" data-scrolling="true">
-        <div class="tile__media">
-          <iframe width="100%" scrolling="nox" src="https://castofcrowns.com"></iframe>
-        </div>
-        <div class="tile__details">
-          <div class="tile__title">
-            Tattoo Shop
-          </div>
-        </div>
-      </div>
-
-      <div class="tile" href="https://amweb.xyz/" data-scrolling="true">
-        <div class="tile__media">
-          <iframe width="100%" scrolling="nox" src="https://amweb.xyz/"></iframe>
-        </div>
-        <div class="tile__details">
-          <div class="tile__title">
-            AMWeb
-          </div>
-        </div>
-      </div>
-
-      <div class="tile" href="https://occ-template-product.netlify.com/" data-scrolling="true">
-        <div class="tile__media">
-          <iframe width="100%" scrolling="nox" src="https://occ-template-product.netlify.com/"></iframe>
-        </div>
-        <div class="tile__details">
-          <div class="tile__title">
-            Product Site
-          </div>
-        </div>
-      </div>
-
-      <div class="tile" href="https://occ-barber.netlify.com" data-scrolling="true">
-        <div class="tile__media">
-          <iframe width="100%" scrolling="nox" src="https://occ-barber.netlify.com"></iframe>
-        </div>
-        <div class="tile__details">
-          <div class="tile__title">
-            Barber Shop
-          </div>
-        </div>
-      </div>
-
-      <div class="tile" href="https://daily-grind.netlify.com/" data-scrolling="true">
-        <div class="tile__media">
-          <iframe width="100%" scrolling="nox" src="https://daily-grind.netlify.com/"></iframe>
-        </div>
-        <div class="tile__details">
-          <div class="tile__title">
-            Coffee Shop
-          </div>
-        </div>
-      </div>
-
-    <div class="tile" href="https://occ-template-agency.netlify.com/" data-scrolling="true">
+    <div class="tile" href="https://castofcrowns.com" data-scrolling="true">
       <div class="tile__media">
-        <iframe width="100%" scrolling="nox" src="https://occ-template-agency.netlify.com/"></iframe>
+        <img class="tile__img" src="images/cast-of-crowns1.jpg">
       </div>
       <div class="tile__details">
         <div class="tile__title">
-          Dentistry
+          Tattoo Shop
         </div>
       </div>
     </div>
 
+    <div class="tile" href="https://amweb.xyz/" data-scrolling="true">
+      <div class="tile__media">
+        <img class="tile__img" src="images/amweb.jpg">
+      </div>
+      <div class="tile__details">
+        <div class="tile__title">
+          AMWeb
+        </div>
+      </div>
+    </div>
+
+    <div class="tile" href="https://occ-template-product.netlify.com/" data-scrolling="true">
+      <div class="tile__media">
+        <img class="tile__img" src="images/air.jpg">
+      </div>
+      <div class="tile__details">
+        <div class="tile__title">
+          Product Site
+        </div>
+      </div>
+    </div>
+
+    <div class="tile" href="https://occ-barber.netlify.com" data-scrolling="true">
+      <div class="tile__media">
+        <img class="tile__img" src="images/barber.jpg">
+      </div>
+      <div class="tile__details">
+        <div class="tile__title">
+          Barber Shop
+        </div>
+      </div>
+    </div>
+
+    <div class="tile" href="https://daily-grind.netlify.com/" data-scrolling="true">
+      <div class="tile__media">
+        <img class="tile__img" src="images/coffee-shop.jpg">
+      </div>
+      <div class="tile__details">
+        <div class="tile__title">
+          Coffee Shop
+        </div>
+      </div>
+    </div>
+
+
+
     <div class="tile" href="https://occ-template-portfolio.netlify.com/" data-scrolling="true">
       <div class="tile__media">
-        <iframe width="100%" scrolling="nox" src="https://occ-template-portfolio.netlify.com/"></iframe>
+        <img class="tile__img" src="images/kaldi.jpg">
       </div>
       <div class="tile__details">
         <div class="tile__title">
@@ -79,7 +70,7 @@
 
     <div class="tile" href="https://occ-template-construction.netlify.com/" data-scrolling="true">
       <div class="tile__media">
-        <iframe width="100%" scrolling="nox" src="https://occ-template-construction.netlify.com/"></iframe>
+        <img class="tile__img" src="images/deck.jpg">
       </div>
       <div class="tile__details">
         <div class="tile__title">
@@ -88,17 +79,29 @@
       </div>
     </div>
 
+    <div class="tile" href="https://occ-template-agency.netlify.com/" data-scrolling="true">
+      <div class="tile__media">
+        <img class="tile__img" src="images/marketing.jpg">
+      </div>
+      <div class="tile__details">
+        <div class="tile__title">
+          Dentistry
+        </div>
+      </div>
+    </div>
   </div>
+
 </div>
 
-{{/*  </div>  */}}
+
+
 
 <script src="https://cdn.jsdelivr.net/gh/englishextra/iframe-lightbox@0.2.8/js/iframe-lightbox.min.js"></script>
 <link type='text/css' rel="stylesheet" href="https://cdn.jsdelivr.net/gh/englishextra/iframe-lightbox@0.2.8/css/iframe-lightbox.min.css">
 <script>
-[].forEach.call(document.getElementsByClassName("tile"), function (el) {
-  console.log(el)
-  el.lightbox = new IframeLightbox(el);
+  [].forEach.call(document.getElementsByClassName("tile"), function (el) {
+    console.log(el)
+    el.lightbox = new IframeLightbox(el);
 
-});
+  });
 </script>

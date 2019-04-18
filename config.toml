@@ -69,7 +69,7 @@ theme = "hugo-elate-theme"
 
   # ///////////////////////////////////////////////////////////////  PROCESS SECTION
   [params.process]
-    enable = false
+    enable = true
     title = "Our Process"
     description = "How we do what we do"
   # ///////////////////////////////////////////////////////////////  WEBSITES SECTION
@@ -79,7 +79,7 @@ theme = "hugo-elate-theme"
     description = ""
   # //////////////////////////////////////////////////////////////  SERVICES SECTION
   [params.services]
-    enable = true
+    enable = false
     title = "Services"
     # description = "What We Can Do For You"
       [[params.services.item]]
